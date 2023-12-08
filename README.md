@@ -1,2 +1,2 @@
 # agilexghrd
-sample blink code configuration using hps
+sample blink code configuration using intel agilex hps
