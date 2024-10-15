@@ -1,0 +1,704 @@
+IP Upgrade report for ghrd_agfb014r24b2e2v
+Thu Jan 11 11:15:30 2024
+Quartus Prime Version 23.4.0 Build 79 11/22/2023 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the Intel FPGA Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++--------------------------------------------------------------------------+
+; IP Upgrade Summary                                                       ;
++------------------------------+-------------------------------------------+
+; IP Components Upgrade Status ; Passed - Thu Jan 11 11:15:29 2024         ;
+; Quartus Prime Version        ; 23.4.0 Build 79 11/22/2023 SC Pro Edition ;
+; Revision Name                ; ghrd_agfb014r24b2e2v                      ;
+; Top-level Entity Name        ; ghrd_agilex_top                           ;
+; Family                       ; Agilex 7                                  ;
++------------------------------+-------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                                                                                  ;
++---------------------------+------------------------------+---------+------------------------------------------+------------------------------------------+-----------------+---------+
+; Entity Name               ; Component Name               ; Version ; Original Source File                     ; Generation File Path                     ; New Source File ; Message ;
++---------------------------+------------------------------+---------+------------------------------------------+------------------------------------------+-----------------+---------+
+; qsys_top_onchip_memory2_0 ; altera_avalon_onchip_memory2 ; 19.3.6  ; ip/qsys_top/qsys_top_onchip_memory2_0.ip ; ip/qsys_top/qsys_top_onchip_memory2_0.ip ;                 ;         ;
+; qsys_top_pio_1            ; altera_avalon_pio            ; 19.2.0  ; ip/qsys_top/qsys_top_pio_1.ip            ; ip/qsys_top/qsys_top_pio_1.ip            ;                 ;         ;
+; emif_hps                  ; altera_emif_fm_hps           ; 2.6.2   ; ip/qsys_top/emif_hps.ip                  ; ip/qsys_top/emif_hps.ip                  ;                 ;         ;
+; user_rst_clkgate_0        ; altera_s10_user_rst_clkgate  ; 19.4.1  ; ip/qsys_top/user_rst_clkgate_0.ip        ; ip/qsys_top/user_rst_clkgate_0.ip        ;                 ;         ;
+; emif_calbus_0             ; altera_emif_cal              ; 2.6.2   ; ip/qsys_top/emif_calbus_0.ip             ; ip/qsys_top/emif_calbus_0.ip             ;                 ;         ;
+; agilex_hps                ; intel_agilex_hps             ; 23.0.0  ; ip/qsys_top/agilex_hps.ip                ; ip/qsys_top/agilex_hps.ip                ;                 ;         ;
+; qsys_top                  ; QsysPrimePro                 ; 22.4    ; qsys_top.qsys                            ; qsys_top.qsys                            ;                 ;         ;
++---------------------------+------------------------------+---------+------------------------------------------+------------------------------------------+-----------------+---------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0.ip" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0.BAK.ip"
+Info (11902): Backing up file "ip/qsys_top/qsys_top_onchip_memory2_0/synth/qsys_top_onchip_memory2_0.v" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0.BAK.v"
+Info (11902): Backing up file "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1.ip" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1.BAK.ip"
+Info (11902): Backing up file "ip/qsys_top/qsys_top_pio_1/synth/qsys_top_pio_1.v" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1.BAK.v"
+Info (11902): Backing up file "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps.ip" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps.BAK.ip"
+Info (11902): Backing up file "ip/qsys_top/emif_hps/synth/emif_hps.v" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps.BAK.v"
+Info (11902): Backing up file "/home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0.ip" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0.BAK.ip"
+Info (11902): Backing up file "ip/qsys_top/user_rst_clkgate_0/synth/user_rst_clkgate_0.v" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0.BAK.v"
+Info (11902): Backing up file "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0.ip" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0.BAK.ip"
+Info (11902): Backing up file "ip/qsys_top/emif_calbus_0/synth/emif_calbus_0.v" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0.BAK.v"
+Info (11902): Backing up file "/home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps.ip" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps.BAK.ip"
+Info (11902): Backing up file "ip/qsys_top/agilex_hps/synth/agilex_hps.v" to "/home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps.BAK.v"
+Info (11902): Backing up file "/home/sam-admin/fgh/basic hps/qsys_top.qsys" to "/home/sam-admin/fgh/basic hps/qsys_top.BAK.qsys"
+Info (11902): Backing up file "qsys_top/synth/qsys_top.v" to "/home/sam-admin/fgh/basic hps/qsys_top.BAK.v"
+Info (20325): ***************************************************************
+Info (20325): Quartus is a registered trademark of Intel Corporation in the
+Info (20325): US and other countries.  Portions of the Quartus Prime software
+Info (20325): code, and other portions of the code included in this download
+Info (20325): or on this DVD, are licensed to Intel Corporation and are the
+Info (20325): copyrighted property of third parties. For license details,
+Info (20325): refer to the End User License Agreement at
+Info (20325): http://fpgasoftware.intel.com/eula.
+Info (20325): ***************************************************************
+Info (20325): 2024.01.11.11:12:09 Info: Batch generation will generate the listed files in this order: qsys_top.qsys, /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0.ip, ip/qsys_top/qsys_top_pio_1.ip, ip/qsys_top/emif_hps.ip, ip/qsys_top/user_rst_clkgate_0.ip, ip/qsys_top/emif_calbus_0.ip, ip/qsys_top/agilex_hps.ip
+Info (20325): 2024.01.11.11:12:23 Info: IP upgrade skipped for Platform Designer system qsys_top.qsys
+Info (20325): 2024.01.11.11:12:23 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2024.01.11.11:12:23 Info: Finished upgrading the ip cores
+Info (20325): 2024.01.11.11:12:26 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2024.01.11.11:12:26 Info: Finished upgrading the ip cores
+Info (20325): 2024.01.11.11:12:29 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2024.01.11.11:12:29 Info: Finished upgrading the ip cores
+Info (20325): 2024.01.11.11:12:41 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2024.01.11.11:12:41 Info: Finished upgrading the ip cores
+Info (20325): 2024.01.11.11:12:43 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2024.01.11.11:12:43 Info: Finished upgrading the ip cores
+Info (20325): 2024.01.11.11:12:46 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2024.01.11.11:12:46 Info: Finished upgrading the ip cores
+Info (20325): 2024.01.11.11:13:02 Info: Starting to upgrade the IP cores in the Platform Designer system
+Info (20325): 2024.01.11.11:13:02 Info: Finished upgrading the ip cores
+Info (20325): ***************************************************************
+Info (20325): Quartus is a registered trademark of Intel Corporation in the
+Info (20325): US and other countries.  Portions of the Quartus Prime software
+Info (20325): code, and other portions of the code included in this download
+Info (20325): or on this DVD, are licensed to Intel Corporation and are the
+Info (20325): copyrighted property of third parties. For license details,
+Info (20325): refer to the End User License Agreement at
+Info (20325): http://fpgasoftware.intel.com/eula.
+Info (20325): ***************************************************************
+Info (20325): 2024.01.11.11:13:04 Info: Batch generation will generate the listed files in this order: qsys_top.qsys, /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0.ip, ip/qsys_top/qsys_top_pio_1.ip, ip/qsys_top/emif_hps.ip, ip/qsys_top/user_rst_clkgate_0.ip, ip/qsys_top/emif_calbus_0.ip, ip/qsys_top/agilex_hps.ip
+Info (20325): 2024.01.11.11:14:02 Info: Parallel IP Generation is enabled.
+Info (20325): 2024.01.11.11:14:02 Info: Platform Designer will attempt to use 4 processors for parallel IP generation based on available number of processors and the total number of IP to be generated.
+Info (20325): 2024.01.11.11:14:02 Info:
+Info (20325): 2024.01.11.11:14:02 Info: Starting: Platform Designer system generation
+Info (20325): 2024.01.11.11:14:41 Info:
+Info (20325): 2024.01.11.11:14:41 Info: Generating on localhost:39889
+Info (20325): 2024.01.11.11:14:41 Info: Saving generation log to /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/emif_calbus_0_generation.rpt
+Info (20325): 2024.01.11.11:14:41 Info: Generated by version: 23.4 build 79
+Info (20325): 2024.01.11.11:14:41 Info: Starting: Create simulation model
+Info (20325): 2024.01.11.11:14:41 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0.ip" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:41 Info: emif_calbus_0: "Transforming system: emif_calbus_0"
+Info (20325): 2024.01.11.11:14:41 Info: emif_calbus_0: "Naming system components in system: emif_calbus_0"
+Info (20325): 2024.01.11.11:14:41 Info: emif_calbus_0: "Processing generation queue"
+Info (20325): 2024.01.11.11:14:41 Info: emif_calbus_0: "Generating: emif_calbus_0"
+Info (20325): 2024.01.11.11:14:41 Info: emif_calbus_0: "Generating: emif_calbus_0_altera_emif_cal_273_vjbyy5a"
+Info (20325): 2024.01.11.11:14:41 Info: emif_calbus_0: "Generating: emif_calbus_0_altera_emif_cal_iossm_273_om26oea"
+Info (20325): 2024.01.11.11:14:41 Info: emif_calbus_0: Done "emif_calbus_0" with 3 modules, 11 files
+Info (20325): 2024.01.11.11:14:41 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:41 Info: common/riviera_files.tcl
+Info (20325): 2024.01.11.11:14:41 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:41 Info: common/xcelium_files.tcl
+Info (20325): 2024.01.11.11:14:41 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:41 Info: common/modelsim_files.tcl
+Info (20325): 2024.01.11.11:14:41 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:41 Info: common/vcs_files.tcl
+Info (20325): 2024.01.11.11:14:41 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:41 Info: common/vcsmx_files.tcl
+Info (20325): 2024.01.11.11:14:41 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/.
+Info (20325): 2024.01.11.11:14:41 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:14:42 Info: Finished: Create simulation model
+Info (20325): 2024.01.11.11:14:42 Info: Starting: Create simulation script
+Info (20325): 2024.01.11.11:14:42 Info: sim-script-gen --system-file="/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0.ip" --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/" --use-relative-paths=true
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: xcelium/cds.lib
+Info (20325): 2024.01.11.11:14:42 Info: xcelium/hdl.var
+Info (20325): 2024.01.11.11:14:42 Info: xcelium/xcelium_setup.sh
+Info (20325): 2024.01.11.11:14:42 Info: 3 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: mentor/msim_setup.tcl
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2024.01.11.11:14:42 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2024.01.11.11:14:42 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0/sim/.
+Info (20325): 2024.01.11.11:14:42 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:14:42 Info: Finished: Create simulation script
+Info (20325): 2024.01.11.11:14:42 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:14:42 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0.ip" --block-symbol-file --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:42 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:14:42 Info:
+Info (20325): 2024.01.11.11:14:42 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:14:42 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0.ip" --synthesis=VERILOG --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:42 Info: emif_calbus_0: "Transforming system: emif_calbus_0"
+Info (20325): 2024.01.11.11:14:42 Info: emif_calbus_0: "Naming system components in system: emif_calbus_0"
+Info (20325): 2024.01.11.11:14:42 Info: emif_calbus_0: "Processing generation queue"
+Info (20325): 2024.01.11.11:14:42 Info: emif_calbus_0: "Generating: emif_calbus_0"
+Info (20325): 2024.01.11.11:14:42 Info: emif_calbus_0: "Generating: emif_calbus_0_altera_emif_cal_273_vjbyy5a"
+Info (20325): 2024.01.11.11:14:42 Info: emif_calbus_0: "Generating: emif_calbus_0_altera_emif_cal_iossm_273_om26oea"
+Info (20325): 2024.01.11.11:14:42 Info: emif_calbus_0: Done "emif_calbus_0" with 3 modules, 11 files
+Info (20325): 2024.01.11.11:14:42 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:14:42 Info: Generation of /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_calbus_0.ip (emif_calbus_0) took 19690 ms
+Info (20325): 2024.01.11.11:14:42 Info:
+Info (20325): 2024.01.11.11:14:42 Info: Generating on localhost:36183
+Info (20325): 2024.01.11.11:14:42 Info: Saving generation log to /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/qsys_top_pio_1_generation.rpt
+Info (20325): 2024.01.11.11:14:42 Info: Generated by version: 23.4 build 79
+Info (20325): 2024.01.11.11:14:42 Info: Starting: Create simulation model
+Info (20325): 2024.01.11.11:14:42 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1.ip" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: "Transforming system: qsys_top_pio_1"
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: "Naming system components in system: qsys_top_pio_1"
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: "Processing generation queue"
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: "Generating: qsys_top_pio_1"
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: "Generating: qsys_top_pio_1_altera_avalon_pio_1923_wzj3fvy"
+Info (20325): 2024.01.11.11:14:42 Info: pio_1: Starting RTL generation for module 'qsys_top_pio_1_altera_avalon_pio_1923_wzj3fvy'
+Info (20325): 2024.01.11.11:14:42 Info: pio_1:   Generation command is [exec /home/sam-admin/intelFPGA_pro/23.4/quartus/linux64//perl/bin/perl -I /home/sam-admin/intelFPGA_pro/23.4/quartus/linux64//perl/lib -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin/europa -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin/perl_lib -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin -I /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/common -I /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=qsys_top_pio_1_altera_avalon_pio_1923_wzj3fvy --dir=/tmp/alt9733_2336392064515139487.dir/0001_pio_1_gen/ --quartus_dir=/home/sam-admin/intelFPGA_pro/23.4/quartus --verilog --config=/tmp/alt9733_2336392064515139487.dir/0001_pio_1_gen//qsys_top_pio_1_altera_avalon_pio_1923_wzj3fvy_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt9733_2336392064515139487.dir/0001_pio_1_gen/  ]
+Info (20325): 2024.01.11.11:14:42 Info: pio_1: Done RTL generation for module 'qsys_top_pio_1_altera_avalon_pio_1923_wzj3fvy'
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: Done "qsys_top_pio_1" with 2 modules, 2 files
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: common/riviera_files.tcl
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: common/xcelium_files.tcl
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: common/modelsim_files.tcl
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: common/vcsmx_files.tcl
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: common/vcs_files.tcl
+Info (20325): 2024.01.11.11:14:42 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/.
+Info (20325): 2024.01.11.11:14:42 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:14:42 Info: Finished: Create simulation model
+Info (20325): 2024.01.11.11:14:42 Info: Starting: Create simulation script
+Info (20325): 2024.01.11.11:14:42 Info: sim-script-gen --system-file="/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1.ip" --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/" --use-relative-paths=true
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: xcelium/cds.lib
+Info (20325): 2024.01.11.11:14:42 Info: xcelium/hdl.var
+Info (20325): 2024.01.11.11:14:42 Info: xcelium/xcelium_setup.sh
+Info (20325): 2024.01.11.11:14:42 Info: 2 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: mentor/msim_setup.tcl
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2024.01.11.11:14:42 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2024.01.11.11:14:42 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/ directory:
+Info (20325): 2024.01.11.11:14:42 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2024.01.11.11:14:42 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1/sim/.
+Info (20325): 2024.01.11.11:14:42 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:14:42 Info: Finished: Create simulation script
+Info (20325): 2024.01.11.11:14:42 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:14:42 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1.ip" --block-symbol-file --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:42 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:14:42 Info:
+Info (20325): 2024.01.11.11:14:42 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:14:42 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1.ip" --synthesis=VERILOG --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: "Transforming system: qsys_top_pio_1"
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: "Naming system components in system: qsys_top_pio_1"
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: "Processing generation queue"
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: "Generating: qsys_top_pio_1"
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: "Generating: qsys_top_pio_1_altera_avalon_pio_1923_wzj3fvy"
+Info (20325): 2024.01.11.11:14:42 Info: pio_1: Starting RTL generation for module 'qsys_top_pio_1_altera_avalon_pio_1923_wzj3fvy'
+Info (20325): 2024.01.11.11:14:42 Info: pio_1:   Generation command is [exec /home/sam-admin/intelFPGA_pro/23.4/quartus/linux64//perl/bin/perl -I /home/sam-admin/intelFPGA_pro/23.4/quartus/linux64//perl/lib -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin/europa -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin/perl_lib -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin -I /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/common -I /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=qsys_top_pio_1_altera_avalon_pio_1923_wzj3fvy --dir=/tmp/alt9733_2336392064515139487.dir/0003_pio_1_gen/ --quartus_dir=/home/sam-admin/intelFPGA_pro/23.4/quartus --verilog --config=/tmp/alt9733_2336392064515139487.dir/0003_pio_1_gen//qsys_top_pio_1_altera_avalon_pio_1923_wzj3fvy_component_configuration.pl  --do_build_sim=0  ]
+Info (20325): 2024.01.11.11:14:42 Info: pio_1: Done RTL generation for module 'qsys_top_pio_1_altera_avalon_pio_1923_wzj3fvy'
+Info (20325): 2024.01.11.11:14:42 Info: qsys_top_pio_1: Done "qsys_top_pio_1" with 2 modules, 2 files
+Info (20325): 2024.01.11.11:14:42 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:14:42 Info: Generation of /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_pio_1.ip (qsys_top_pio_1) took 23771 ms
+Info (20325): 2024.01.11.11:14:43 Info:
+Info (20325): 2024.01.11.11:14:43 Info: Generating on localhost:39515
+Info (20325): 2024.01.11.11:14:43 Info: Saving generation log to /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/qsys_top_onchip_memory2_0_generation.rpt
+Info (20325): 2024.01.11.11:14:43 Info: Generated by version: 23.4 build 79
+Info (20325): 2024.01.11.11:14:43 Info: Starting: Create simulation model
+Info (20325): 2024.01.11.11:14:43 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0.ip" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: "Transforming system: qsys_top_onchip_memory2_0"
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: "Naming system components in system: qsys_top_onchip_memory2_0"
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: "Processing generation queue"
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: "Generating: qsys_top_onchip_memory2_0"
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: "Generating: qsys_top_onchip_memory2_0_altera_avalon_onchip_memory2_1938_punh45q"
+Info (20325): 2024.01.11.11:14:43 Info: onchip_memory2_0: Starting RTL generation for module 'qsys_top_onchip_memory2_0_altera_avalon_onchip_memory2_1938_punh45q'
+Info (20325): 2024.01.11.11:14:43 Info: onchip_memory2_0:   Generation command is [exec /home/sam-admin/intelFPGA_pro/23.4/quartus/linux64//perl/bin/perl -I /home/sam-admin/intelFPGA_pro/23.4/quartus/linux64//perl/lib -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin/europa -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin/perl_lib -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin -I /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/common -I /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=qsys_top_onchip_memory2_0_altera_avalon_onchip_memory2_1938_punh45q --dir=/tmp/alt9733_1002830954164394058.dir/0001_onchip_memory2_0_gen/ --quartus_dir=/home/sam-admin/intelFPGA_pro/23.4/quartus --verilog --config=/tmp/alt9733_1002830954164394058.dir/0001_onchip_memory2_0_gen//qsys_top_onchip_memory2_0_altera_avalon_onchip_memory2_1938_punh45q_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt9733_1002830954164394058.dir/0001_onchip_memory2_0_gen/  ]
+Info (20325): 2024.01.11.11:14:43 Info: onchip_memory2_0: Done RTL generation for module 'qsys_top_onchip_memory2_0_altera_avalon_onchip_memory2_1938_punh45q'
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: Done "qsys_top_onchip_memory2_0" with 2 modules, 3 files
+Info (20325): 2024.01.11.11:14:43 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:43 Info: common/vcs_files.tcl
+Info (20325): 2024.01.11.11:14:43 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:43 Info: common/xcelium_files.tcl
+Info (20325): 2024.01.11.11:14:43 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:43 Info: common/riviera_files.tcl
+Info (20325): 2024.01.11.11:14:43 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:43 Info: common/modelsim_files.tcl
+Info (20325): 2024.01.11.11:14:43 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:43 Info: common/vcsmx_files.tcl
+Info (20325): 2024.01.11.11:14:43 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/.
+Info (20325): 2024.01.11.11:14:43 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:14:43 Info: Finished: Create simulation model
+Info (20325): 2024.01.11.11:14:43 Info: Starting: Create simulation script
+Info (20325): 2024.01.11.11:14:43 Info: sim-script-gen --system-file="/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0.ip" --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/" --use-relative-paths=true
+Info (20325): 2024.01.11.11:14:43 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:43 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2024.01.11.11:14:43 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:43 Info: xcelium/cds.lib
+Info (20325): 2024.01.11.11:14:43 Info: xcelium/hdl.var
+Info (20325): 2024.01.11.11:14:43 Info: xcelium/xcelium_setup.sh
+Info (20325): 2024.01.11.11:14:43 Info: 2 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2024.01.11.11:14:43 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:43 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2024.01.11.11:14:43 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:43 Info: mentor/msim_setup.tcl
+Info (20325): 2024.01.11.11:14:43 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:43 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2024.01.11.11:14:43 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2024.01.11.11:14:43 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/sim/.
+Info (20325): 2024.01.11.11:14:43 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:14:43 Info: Finished: Create simulation script
+Info (20325): 2024.01.11.11:14:43 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:14:43 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0.ip" --block-symbol-file --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:43 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:14:43 Info:
+Info (20325): 2024.01.11.11:14:43 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:14:43 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0.ip" --synthesis=VERILOG --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: "Transforming system: qsys_top_onchip_memory2_0"
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: "Naming system components in system: qsys_top_onchip_memory2_0"
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: "Processing generation queue"
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: "Generating: qsys_top_onchip_memory2_0"
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: "Generating: qsys_top_onchip_memory2_0_altera_avalon_onchip_memory2_1938_punh45q"
+Info (20325): 2024.01.11.11:14:43 Info: onchip_memory2_0: Starting RTL generation for module 'qsys_top_onchip_memory2_0_altera_avalon_onchip_memory2_1938_punh45q'
+Info (20325): 2024.01.11.11:14:43 Info: onchip_memory2_0:   Generation command is [exec /home/sam-admin/intelFPGA_pro/23.4/quartus/linux64//perl/bin/perl -I /home/sam-admin/intelFPGA_pro/23.4/quartus/linux64//perl/lib -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin/europa -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin/perl_lib -I /home/sam-admin/intelFPGA_pro/23.4/quartus/sopc_builder/bin -I /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/common -I /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/sam-admin/intelFPGA_pro/23.4/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=qsys_top_onchip_memory2_0_altera_avalon_onchip_memory2_1938_punh45q --dir=/tmp/alt9733_1002830954164394058.dir/0003_onchip_memory2_0_gen/ --quartus_dir=/home/sam-admin/intelFPGA_pro/23.4/quartus --verilog --config=/tmp/alt9733_1002830954164394058.dir/0003_onchip_memory2_0_gen//qsys_top_onchip_memory2_0_altera_avalon_onchip_memory2_1938_punh45q_component_configuration.pl  --do_build_sim=0  ]
+Info (20325): 2024.01.11.11:14:43 Info: onchip_memory2_0: Done RTL generation for module 'qsys_top_onchip_memory2_0_altera_avalon_onchip_memory2_1938_punh45q'
+Info (20325): 2024.01.11.11:14:43 Info: qsys_top_onchip_memory2_0: Done "qsys_top_onchip_memory2_0" with 2 modules, 3 files
+Info (20325): 2024.01.11.11:14:43 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:14:43 Info: Generation of /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0.ip (qsys_top_onchip_memory2_0) took 24300 ms
+Info (20325): 2024.01.11.11:14:45 Info:
+Info (20325): 2024.01.11.11:14:45 Info: Generating on localhost:45275
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: All Generic Component instances match their respective ip files.
+Info (20325): 2024.01.11.11:14:45 Info: Saving generation log to /home/sam-admin/fgh/basic hps/qsys_top/qsys_top_generation.rpt
+Info (20325): 2024.01.11.11:14:45 Info: Generated by version: 23.4 build 79
+Info (20325): 2024.01.11.11:14:45 Info: Starting: Create simulation model
+Info (20325): 2024.01.11.11:14:45 Info: qsys-generate "/home/sam-admin/fgh/basic hps/qsys_top.qsys" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="/home/sam-admin/fgh/basic hps/qsys_top" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:45 Info: Loading basic hps/qsys_top.qsys
+Info (20325): 2024.01.11.11:14:45 Info: Reading input file
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module agilex_hps
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module clk_100
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module emif_calbus_0
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module emif_hps
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module onchip_memory2_0
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module pio_1
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module rst_in
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module user_rst_clkgate_0
+Info (20325): 2024.01.11.11:14:45 Info: Building connections
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing connections
+Info (20325): 2024.01.11.11:14:45 Info: Validating
+Info (20325): 2024.01.11.11:14:45 Info: Done reading input file
+Warning (20326): 2024.01.11.11:14:45 Warning: qsys_top.clk_100: Project Setting information doesn't match IP Variant file. Double-click to open System Info tab.
+Warning (20326): 2024.01.11.11:14:45 Warning: qsys_top.rst_in: Project Setting information doesn't match IP Variant file. Double-click to open System Info tab.
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Transforming system: qsys_top"
+Info (20325): 2024.01.11.11:14:45 Info: Interconnect is inserted between master agilex_hps.h2f_axi_master and slave onchip_memory2_0.s1 because the master is of type axi4 and the slave is of type avalon.
+Info (20325): 2024.01.11.11:14:45 Info: Interconnect is inserted between master agilex_hps.h2f_lw_axi_master and slave pio_1.s1 because the master is of type axi4 and the slave is of type avalon.
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Naming system components in system: qsys_top"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Processing generation queue"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: agilex_hps"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: clk_100"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: emif_calbus_0"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: emif_hps"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_onchip_memory2_0"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_pio_1"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: rst_in"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: user_rst_clkgate_0"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_mm_interconnect_1920_yigfcli"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_mm_interconnect_1920_6idghsa"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: altera_reset_controller"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_axi_translator_1931_d46vvwa"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_axi_master_ni_1962_2kryw2a"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_slave_agent_1921_b6r3djy"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_avalon_sc_fifo_1931_vhmcgqy"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_router_1921_xjikzeq"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_router_1921_4q6uyiq"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_burst_adapter_1931_iirrl6i"
+Info (20325): 2024.01.11.11:14:45 Info: my_altera_avalon_st_pipeline_stage: "Generating: my_altera_avalon_st_pipeline_stage"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_demultiplexer_1921_7w2ffaa"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_multiplexer_1922_m7v5tgi"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_demultiplexer_1921_zeqxbai"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_multiplexer_1922_pvrwnty"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_router_1921_g4nzxoa"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_router_1921_daoa7wi"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_burst_adapter_1931_rnbm54y"
+Info (20325): 2024.01.11.11:14:45 Info: my_altera_avalon_st_pipeline_stage: "Generating: my_altera_avalon_st_pipeline_stage"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_demultiplexer_1921_n77vofi"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_multiplexer_1922_sejd2qy"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_demultiplexer_1921_zjcvwny"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_multiplexer_1922_rvmlpmi"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_burst_adapter_altera_avalon_st_pipeline_stage_1931_gncw4ji"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_burst_adapter_altera_avalon_st_pipeline_stage_1931_luvkc2q"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_avalon_st_pipeline_stage_1930_bv2ucky"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: Done "qsys_top" with 34 modules, 49 files
+Info (20325): 2024.01.11.11:14:45 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/qsys_top/sim/ directory:
+Info (20325): 2024.01.11.11:14:45 Info: common/vcsmx_files.tcl
+Info (20325): 2024.01.11.11:14:45 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/qsys_top/sim/ directory:
+Info (20325): 2024.01.11.11:14:45 Info: common/modelsim_files.tcl
+Info (20325): 2024.01.11.11:14:45 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/qsys_top/sim/ directory:
+Info (20325): 2024.01.11.11:14:45 Info: common/riviera_files.tcl
+Info (20325): 2024.01.11.11:14:45 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/qsys_top/sim/ directory:
+Info (20325): 2024.01.11.11:14:45 Info: common/xcelium_files.tcl
+Info (20325): 2024.01.11.11:14:45 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/qsys_top/sim/ directory:
+Info (20325): 2024.01.11.11:14:45 Info: common/vcs_files.tcl
+Info (20325): 2024.01.11.11:14:45 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/qsys_top/sim/.
+Info (20325): 2024.01.11.11:14:45 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:14:45 Info: Finished: Create simulation model
+Info (20325): 2024.01.11.11:14:45 Info: Starting: Create simulation script
+Info (20325): 2024.01.11.11:14:45 Info: sim-script-gen --system-file="/home/sam-admin/fgh/basic hps/qsys_top.qsys" --output-directory="/home/sam-admin/fgh/basic hps/qsys_top/sim/" --use-relative-paths=true
+Info (20325): 2024.01.11.11:14:45 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/qsys_top/sim/ directory:
+Info (20325): 2024.01.11.11:14:45 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2024.01.11.11:14:45 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2024.01.11.11:14:45 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/qsys_top/sim/ directory:
+Info (20325): 2024.01.11.11:14:45 Info: mentor/msim_setup.tcl
+Info (20325): 2024.01.11.11:14:45 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/qsys_top/sim/ directory:
+Info (20325): 2024.01.11.11:14:45 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2024.01.11.11:14:45 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/qsys_top/sim/ directory:
+Info (20325): 2024.01.11.11:14:45 Info: xcelium/cds.lib
+Info (20325): 2024.01.11.11:14:45 Info: xcelium/hdl.var
+Info (20325): 2024.01.11.11:14:45 Info: xcelium/xcelium_setup.sh
+Info (20325): 2024.01.11.11:14:45 Info: 1 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2024.01.11.11:14:45 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/qsys_top/sim/ directory:
+Info (20325): 2024.01.11.11:14:45 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2024.01.11.11:14:45 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/qsys_top/sim/.
+Info (20325): 2024.01.11.11:14:45 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:14:45 Info: Finished: Create simulation script
+Info (20325): 2024.01.11.11:14:45 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:14:45 Info: qsys-generate "/home/sam-admin/fgh/basic hps/qsys_top.qsys" --block-symbol-file --output-directory="/home/sam-admin/fgh/basic hps/qsys_top" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:45 Info: Loading basic hps/qsys_top.qsys
+Info (20325): 2024.01.11.11:14:45 Info: Reading input file
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module agilex_hps
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module clk_100
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module emif_calbus_0
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module emif_hps
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module onchip_memory2_0
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module pio_1
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module rst_in
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module user_rst_clkgate_0
+Info (20325): 2024.01.11.11:14:45 Info: Building connections
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing connections
+Info (20325): 2024.01.11.11:14:45 Info: Validating
+Info (20325): 2024.01.11.11:14:45 Info: Done reading input file
+Warning (20326): 2024.01.11.11:14:45 Warning: qsys_top.clk_100: Project Setting information doesn't match IP Variant file. Double-click to open System Info tab.
+Warning (20326): 2024.01.11.11:14:45 Warning: qsys_top.rst_in: Project Setting information doesn't match IP Variant file. Double-click to open System Info tab.
+Info (20325): 2024.01.11.11:14:45 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:14:45 Info:
+Info (20325): 2024.01.11.11:14:45 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:14:45 Info: qsys-generate "/home/sam-admin/fgh/basic hps/qsys_top.qsys" --synthesis=VERILOG --output-directory="/home/sam-admin/fgh/basic hps/qsys_top" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:45 Info: Loading basic hps/qsys_top.qsys
+Info (20325): 2024.01.11.11:14:45 Info: Reading input file
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module agilex_hps
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module clk_100
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module emif_calbus_0
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module emif_hps
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module onchip_memory2_0
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module pio_1
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module rst_in
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing module user_rst_clkgate_0
+Info (20325): 2024.01.11.11:14:45 Info: Building connections
+Info (20325): 2024.01.11.11:14:45 Info: Parameterizing connections
+Info (20325): 2024.01.11.11:14:45 Info: Validating
+Info (20325): 2024.01.11.11:14:45 Info: Done reading input file
+Warning (20326): 2024.01.11.11:14:45 Warning: qsys_top.clk_100: Project Setting information doesn't match IP Variant file. Double-click to open System Info tab.
+Warning (20326): 2024.01.11.11:14:45 Warning: qsys_top.rst_in: Project Setting information doesn't match IP Variant file. Double-click to open System Info tab.
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Transforming system: qsys_top"
+Info (20325): 2024.01.11.11:14:45 Info: Interconnect is inserted between master agilex_hps.h2f_axi_master and slave onchip_memory2_0.s1 because the master is of type axi4 and the slave is of type avalon.
+Info (20325): 2024.01.11.11:14:45 Info: Interconnect is inserted between master agilex_hps.h2f_lw_axi_master and slave pio_1.s1 because the master is of type axi4 and the slave is of type avalon.
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Naming system components in system: qsys_top"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Processing generation queue"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: agilex_hps"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: clk_100"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: emif_calbus_0"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: emif_hps"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_onchip_memory2_0"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_pio_1"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: rst_in"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: user_rst_clkgate_0"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_mm_interconnect_1920_yigfcli"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_mm_interconnect_1920_6idghsa"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: altera_reset_controller"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_axi_translator_1931_d46vvwa"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_slave_translator_191_x56fcki"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_axi_master_ni_1962_2kryw2a"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_slave_agent_1921_b6r3djy"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_avalon_sc_fifo_1931_vhmcgqy"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_router_1921_xjikzeq"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_router_1921_4q6uyiq"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_burst_adapter_1931_iirrl6i"
+Info (20325): 2024.01.11.11:14:45 Info: my_altera_avalon_st_pipeline_stage: "Generating: my_altera_avalon_st_pipeline_stage"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_demultiplexer_1921_7w2ffaa"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_multiplexer_1922_m7v5tgi"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_demultiplexer_1921_zeqxbai"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_multiplexer_1922_pvrwnty"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_router_1921_g4nzxoa"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_router_1921_daoa7wi"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_burst_adapter_1931_rnbm54y"
+Info (20325): 2024.01.11.11:14:45 Info: my_altera_avalon_st_pipeline_stage: "Generating: my_altera_avalon_st_pipeline_stage"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_demultiplexer_1921_n77vofi"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_multiplexer_1922_sejd2qy"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_demultiplexer_1921_zjcvwny"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_multiplexer_1922_rvmlpmi"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_burst_adapter_altera_avalon_st_pipeline_stage_1931_gncw4ji"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_merlin_burst_adapter_altera_avalon_st_pipeline_stage_1931_luvkc2q"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: "Generating: qsys_top_altera_avalon_st_pipeline_stage_1930_bv2ucky"
+Info (20325): 2024.01.11.11:14:45 Info: qsys_top: Done "qsys_top" with 34 modules, 49 files
+Info (20325): 2024.01.11.11:14:45 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:14:45 Info: Generation of /home/sam-admin/fgh/basic hps/qsys_top.qsys (qsys_top) took 26472 ms
+Info (20325): 2024.01.11.11:14:46 Info:
+Info (20325): 2024.01.11.11:14:46 Info: Generating on localhost:36183
+Info (20325): 2024.01.11.11:14:46 Info: Saving generation log to /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/user_rst_clkgate_0_generation.rpt
+Info (20325): 2024.01.11.11:14:46 Info: Generated by version: 23.4 build 79
+Info (20325): 2024.01.11.11:14:46 Info: Starting: Create simulation model
+Info (20325): 2024.01.11.11:14:46 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0.ip" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0.altera_s10_user_rst_clkgate_inst: Please use the new Intel FPGA IP named intel_user_rst_clkgate
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: "Transforming system: user_rst_clkgate_0"
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: "Naming system components in system: user_rst_clkgate_0"
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: "Processing generation queue"
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: "Generating: user_rst_clkgate_0"
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: "Generating: altera_s10_user_rst_clkgate"
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: Done "user_rst_clkgate_0" with 2 modules, 2 files
+Info (20325): 2024.01.11.11:14:46 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:46 Info: common/riviera_files.tcl
+Info (20325): 2024.01.11.11:14:46 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:46 Info: common/xcelium_files.tcl
+Info (20325): 2024.01.11.11:14:46 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:46 Info: common/modelsim_files.tcl
+Info (20325): 2024.01.11.11:14:46 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:46 Info: common/vcsmx_files.tcl
+Info (20325): 2024.01.11.11:14:46 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:46 Info: common/vcs_files.tcl
+Info (20325): 2024.01.11.11:14:46 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/.
+Info (20325): 2024.01.11.11:14:46 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:14:46 Info: Finished: Create simulation model
+Info (20325): 2024.01.11.11:14:46 Info: Starting: Create simulation script
+Info (20325): 2024.01.11.11:14:46 Info: sim-script-gen --system-file="/home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0.ip" --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/" --use-relative-paths=true
+Info (20325): 2024.01.11.11:14:46 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:46 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2024.01.11.11:14:46 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:46 Info: xcelium/cds.lib
+Info (20325): 2024.01.11.11:14:46 Info: xcelium/hdl.var
+Info (20325): 2024.01.11.11:14:46 Info: xcelium/xcelium_setup.sh
+Info (20325): 2024.01.11.11:14:46 Info: 2 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2024.01.11.11:14:46 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:46 Info: mentor/msim_setup.tcl
+Info (20325): 2024.01.11.11:14:46 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:46 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2024.01.11.11:14:46 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2024.01.11.11:14:46 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/ directory:
+Info (20325): 2024.01.11.11:14:46 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2024.01.11.11:14:46 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/sim/.
+Info (20325): 2024.01.11.11:14:46 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:14:46 Info: Finished: Create simulation script
+Info (20325): 2024.01.11.11:14:46 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:14:46 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0.ip" --block-symbol-file --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0.altera_s10_user_rst_clkgate_inst: Please use the new Intel FPGA IP named intel_user_rst_clkgate
+Info (20325): 2024.01.11.11:14:46 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:14:46 Info:
+Info (20325): 2024.01.11.11:14:46 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:14:46 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0.ip" --synthesis=VERILOG --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0.altera_s10_user_rst_clkgate_inst: Please use the new Intel FPGA IP named intel_user_rst_clkgate
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: "Transforming system: user_rst_clkgate_0"
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: "Naming system components in system: user_rst_clkgate_0"
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: "Processing generation queue"
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: "Generating: user_rst_clkgate_0"
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: "Generating: altera_s10_user_rst_clkgate"
+Info (20325): 2024.01.11.11:14:46 Info: altera_s10_user_rst_clkgate_inst: generating top-level entity altera_s10_user_rst_clkgate
+Info (20325): 2024.01.11.11:14:46 Info: user_rst_clkgate_0: Done "user_rst_clkgate_0" with 2 modules, 3 files
+Info (20325): 2024.01.11.11:14:46 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:14:46 Info: Generation of /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0.ip (user_rst_clkgate_0) took 3424 ms
+Info (20325): 2024.01.11.11:15:10 Info:
+Info (20325): 2024.01.11.11:15:10 Info: Generating on localhost:39515
+Info (20325): 2024.01.11.11:15:10 Info: Saving generation log to /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/emif_hps_generation.rpt
+Info (20325): 2024.01.11.11:15:10 Info: Generated by version: 23.4 build 79
+Info (20325): 2024.01.11.11:15:10 Info: Starting: Create simulation model
+Info (20325): 2024.01.11.11:15:10 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps.ip" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst: When ECC is enabled, a partial write using the DM pins triggers a read-modify-write operation.  Frequent partial writes can lead to poor efficiency.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst: Debug features for HPS are currently not supported.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: EMIF IP requires EMIF Calibration IP to source its calbus clock and calbus conduit.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: Placement of address/command pins must follow "DDR4 Scheme 2: Component and DIMM".
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: Interface estimated to require 2 I/O Bank(s) and 3 I/O PLL(s). This is only an estimation. Final usage depends on user pin location assignments and/or fitter behavior.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: Valid memory frequencies for the current PLL reference clock of 100.0 MHz and user clock rate, in MHz: 1600.0, 1200.0, 800.0
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: For additional documentation about the interface, consult the *_readme.txt file after generation.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Transforming system: emif_hps"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Naming system components in system: emif_hps"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Processing generation queue"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Generating: emif_hps"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Generating: emif_hps_altera_emif_fm_hps_273_73xvgna"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Generating: emif_hps_altera_emif_arch_fm_191_jwe4eea"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: Done "emif_hps" with 3 modules, 40 files
+Info (20325): 2024.01.11.11:15:10 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:10 Info: common/vcs_files.tcl
+Info (20325): 2024.01.11.11:15:10 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:10 Info: common/xcelium_files.tcl
+Info (20325): 2024.01.11.11:15:10 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:10 Info: common/riviera_files.tcl
+Info (20325): 2024.01.11.11:15:10 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:10 Info: common/modelsim_files.tcl
+Info (20325): 2024.01.11.11:15:10 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:10 Info: common/vcsmx_files.tcl
+Info (20325): 2024.01.11.11:15:10 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/.
+Info (20325): 2024.01.11.11:15:10 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:15:10 Info: Finished: Create simulation model
+Info (20325): 2024.01.11.11:15:10 Info: Starting: Create simulation script
+Info (20325): 2024.01.11.11:15:10 Info: sim-script-gen --system-file="/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps.ip" --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/" --use-relative-paths=true
+Info (20325): 2024.01.11.11:15:10 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:10 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2024.01.11.11:15:10 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:10 Info: xcelium/cds.lib
+Info (20325): 2024.01.11.11:15:10 Info: xcelium/hdl.var
+Info (20325): 2024.01.11.11:15:10 Info: xcelium/xcelium_setup.sh
+Info (20325): 2024.01.11.11:15:10 Info: 3 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2024.01.11.11:15:10 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:10 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2024.01.11.11:15:10 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:10 Info: mentor/msim_setup.tcl
+Info (20325): 2024.01.11.11:15:10 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:10 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2024.01.11.11:15:10 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2024.01.11.11:15:10 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/sim/.
+Info (20325): 2024.01.11.11:15:10 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:15:10 Info: Finished: Create simulation script
+Info (20325): 2024.01.11.11:15:10 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:15:10 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps.ip" --block-symbol-file --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst: When ECC is enabled, a partial write using the DM pins triggers a read-modify-write operation.  Frequent partial writes can lead to poor efficiency.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst: Debug features for HPS are currently not supported.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: EMIF IP requires EMIF Calibration IP to source its calbus clock and calbus conduit.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: Placement of address/command pins must follow "DDR4 Scheme 2: Component and DIMM".
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: Interface estimated to require 2 I/O Bank(s) and 3 I/O PLL(s). This is only an estimation. Final usage depends on user pin location assignments and/or fitter behavior.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: Valid memory frequencies for the current PLL reference clock of 100.0 MHz and user clock rate, in MHz: 1600.0, 1200.0, 800.0
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: For additional documentation about the interface, consult the *_readme.txt file after generation.
+Info (20325): 2024.01.11.11:15:10 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:15:10 Info:
+Info (20325): 2024.01.11.11:15:10 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:15:10 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps.ip" --synthesis=VERILOG --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst: When ECC is enabled, a partial write using the DM pins triggers a read-modify-write operation.  Frequent partial writes can lead to poor efficiency.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst: Debug features for HPS are currently not supported.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: EMIF IP requires EMIF Calibration IP to source its calbus clock and calbus conduit.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: Placement of address/command pins must follow "DDR4 Scheme 2: Component and DIMM".
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: Interface estimated to require 2 I/O Bank(s) and 3 I/O PLL(s). This is only an estimation. Final usage depends on user pin location assignments and/or fitter behavior.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: Valid memory frequencies for the current PLL reference clock of 100.0 MHz and user clock rate, in MHz: 1600.0, 1200.0, 800.0
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps.altera_emif_fm_hps_inst.arch: For additional documentation about the interface, consult the *_readme.txt file after generation.
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Transforming system: emif_hps"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Naming system components in system: emif_hps"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Processing generation queue"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Generating: emif_hps"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Generating: emif_hps_altera_emif_fm_hps_273_73xvgna"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: "Generating: emif_hps_altera_emif_arch_fm_191_jwe4eea"
+Info (20325): 2024.01.11.11:15:10 Info: emif_hps: Done "emif_hps" with 3 modules, 50 files
+Info (20325): 2024.01.11.11:15:10 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:15:10 Info: Generation of /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps.ip (emif_hps) took 18208 ms
+Info (20325): 2024.01.11.11:15:27 Info:
+Info (20325): 2024.01.11.11:15:27 Info: Generating on localhost:39889
+Info (20325): 2024.01.11.11:15:27 Info: Saving generation log to /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/agilex_hps_generation.rpt
+Info (20325): 2024.01.11.11:15:27 Info: Generated by version: 23.4 build 79
+Info (20325): 2024.01.11.11:15:27 Info: Starting: Create simulation model
+Info (20325): 2024.01.11.11:15:27 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps.ip" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Transforming system: agilex_hps"
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Naming system components in system: agilex_hps"
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Processing generation queue"
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Generating: agilex_hps"
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Generating: agilex_hps_intel_agilex_hps_2400_6pvs3uq"
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Generating: agilex_hps_intel_agilex_interface_generator_191_o2v74ua"
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: Done "agilex_hps" with 3 modules, 19 files
+Info (20325): 2024.01.11.11:15:27 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:27 Info: common/riviera_files.tcl
+Info (20325): 2024.01.11.11:15:27 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:27 Info: common/xcelium_files.tcl
+Info (20325): 2024.01.11.11:15:27 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:27 Info: common/modelsim_files.tcl
+Info (20325): 2024.01.11.11:15:27 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:27 Info: common/vcs_files.tcl
+Info (20325): 2024.01.11.11:15:27 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:27 Info: common/vcsmx_files.tcl
+Info (20325): 2024.01.11.11:15:27 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/.
+Info (20325): 2024.01.11.11:15:27 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:15:27 Info: Finished: Create simulation model
+Info (20325): 2024.01.11.11:15:27 Info: Starting: Create simulation script
+Info (20325): 2024.01.11.11:15:27 Info: sim-script-gen --system-file="/home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps.ip" --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/" --use-relative-paths=true
+Info (20325): 2024.01.11.11:15:27 Info: Generating the following file(s) for RIVIERA simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:27 Info: aldec/rivierapro_setup.tcl
+Info (20325): 2024.01.11.11:15:27 Info: Generating the following file(s) for XCELIUM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:27 Info: xcelium/cds.lib
+Info (20325): 2024.01.11.11:15:27 Info: xcelium/hdl.var
+Info (20325): 2024.01.11.11:15:27 Info: xcelium/xcelium_setup.sh
+Info (20325): 2024.01.11.11:15:27 Info: 3 .cds.lib files in xcelium/cds_libs/ directory
+Info (20325): 2024.01.11.11:15:27 Info: Generating the following file(s) for MODELSIM simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:27 Info: mentor/msim_setup.tcl
+Info (20325): 2024.01.11.11:15:27 Info: Generating the following file(s) for VCS simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:27 Info: synopsys/vcs/vcs_setup.sh
+Info (20325): 2024.01.11.11:15:27 Info: Generating the following file(s) for VCSMX simulator in /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/ directory:
+Info (20325): 2024.01.11.11:15:27 Info: synopsys/vcsmx/synopsys_sim.setup
+Info (20325): 2024.01.11.11:15:27 Info: synopsys/vcsmx/vcsmx_setup.sh
+Info (20325): 2024.01.11.11:15:27 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/sim/.
+Info (20325): 2024.01.11.11:15:27 Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info (20325): 2024.01.11.11:15:27 Info: Finished: Create simulation script
+Info (20325): 2024.01.11.11:15:27 Info: Starting: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:15:27 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps.ip" --block-symbol-file --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:15:27 Info: Finished: Create block symbol file (.bsf)
+Info (20325): 2024.01.11.11:15:27 Info:
+Info (20325): 2024.01.11.11:15:27 Info: Starting: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:15:27 Info: qsys-generate "/home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps.ip" --synthesis=VERILOG --output-directory="/home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps" --family="Agilex 7" --part=AGFB014R24B2E2V
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Transforming system: agilex_hps"
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Naming system components in system: agilex_hps"
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Processing generation queue"
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Generating: agilex_hps"
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Generating: agilex_hps_intel_agilex_hps_2400_6pvs3uq"
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: "Generating: agilex_hps_intel_agilex_interface_generator_191_o2v74ua"
+Info (20325): 2024.01.11.11:15:27 Info: fpga_interfaces: hps_ip_handoff_option_dump setting disabled
+Info (20325): 2024.01.11.11:15:27 Info: agilex_hps: Done "agilex_hps" with 3 modules, 14 files
+Info (20325): 2024.01.11.11:15:27 Info: Finished: Create HDL design files for synthesis
+Info (20325): 2024.01.11.11:15:27 Info: Generation of /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps.ip (agilex_hps) took 29862 ms
+Info (20325): 2024.01.11.11:15:28 Info: Finished: Platform Designer system generation
+Info (11131): Completed upgrading IP component altera_avalon_onchip_memory2 with file "ip/qsys_top/qsys_top_onchip_memory2_0.ip"
+Info (11131): Completed upgrading IP component altera_avalon_pio with file "ip/qsys_top/qsys_top_pio_1.ip"
+Info (11131): Completed upgrading IP component altera_emif_fm_hps with file "ip/qsys_top/emif_hps.ip"
+Info (11131): Completed upgrading IP component altera_s10_user_rst_clkgate with file "ip/qsys_top/user_rst_clkgate_0.ip"
+Info (11131): Completed upgrading IP component altera_emif_cal with file "ip/qsys_top/emif_calbus_0.ip"
+Info (11131): Completed upgrading IP component intel_agilex_hps with file "ip/qsys_top/agilex_hps.ip"
+Info (11131): Completed upgrading IP component QsysPrimePro with file "qsys_top.qsys"
+Info (23030): Evaluation of Tcl script /home/sam-admin/intelFPGA_pro/23.4/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 1190 megabytes
+    Info: Processing ended: Thu Jan 11 11:15:31 2024
+    Info: Elapsed time: 00:03:42
+    Info: System process ID: 7331
+
+

@@ -1,0 +1,23 @@
+IP Ports Diff Report for qsys_top_onchip_memory2_0
+Thu Jan 11 11:15:30 2024
+Quartus Prime Version 23.4.0 Build 79 11/22/2023 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; IP Information                                                                                                               ;
++----------------------+-------------------------------------------------------------------------------------------------------+
+; IP Variation Name    ; qsys_top_onchip_memory2_0                                                                             ;
+; Prior Version        ; 19.3.6                                                                                                ;
+; New Version          ; 19.3.8                                                                                                ;
+; New File             ; /home/sam-admin/fgh/basic hps/ip/qsys_top/qsys_top_onchip_memory2_0/synth/qsys_top_onchip_memory2_0.v ;
+; Has Port Differences ; No                                                                                                    ;
++----------------------+-------------------------------------------------------------------------------------------------------+
+
+

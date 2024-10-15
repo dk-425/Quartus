@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip name="On-Chip Memory (RAM or ROM) Intel FPGA IP">
+ <timestamp>2024-01-11T11:12:26.285593481</timestamp>
+ <file></file>
+ <old_version>19.3.6</old_version>
+ <new_version>19.3.8</new_version>
+</ip>
+
+<ip name="PIO (Parallel I/O) Intel FPGA IP">
+ <timestamp>2024-01-11T11:12:29.087784117</timestamp>
+ <file></file>
+ <old_version>19.2.0</old_version>
+ <new_version>19.2.3</new_version>
+</ip>
+
+<ip name="External Memory Interfaces for HPS Intel FPGA IP">
+ <timestamp>2024-01-11T11:12:41.178245356</timestamp>
+ <file></file>
+ <old_version>2.6.2</old_version>
+ <new_version>2.7.3</new_version>
+ <changes>
+  <change>2.7.3</change>
+  <change>No parameter change</change>
+  <change>No port change</change>
+  <change>Suppress warning and adjust certain board preset configurations</change>
+ </changes>
+</ip>
+
+<ip name="Reset Release Intel FPGA IP">
+ <timestamp>2024-01-11T11:12:43.741618169</timestamp>
+ <file></file>
+ <old_version>19.4.1</old_version>
+ <new_version>19.4.7</new_version>
+</ip>
+
+<ip name="External Memory Interfaces Intel Calibration IP">
+ <timestamp>2024-01-11T11:12:46.665363508</timestamp>
+ <file></file>
+ <old_version>2.6.2</old_version>
+ <new_version>2.7.3</new_version>
+</ip>
+
+<ip name="Hard Processor System Intel Agilex 7 / Agilex 9 FPGA IP">
+ <timestamp>2024-01-11T11:13:02.861860045</timestamp>
+ <file></file>
+ <old_version>23.0.0</old_version>
+ <new_version>24.0.0</new_version>
+</ip>

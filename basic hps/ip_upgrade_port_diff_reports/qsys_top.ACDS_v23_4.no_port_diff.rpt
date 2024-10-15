@@ -1,0 +1,23 @@
+IP Ports Diff Report for qsys_top
+Thu Jan 11 11:15:30 2024
+Quartus Prime Version 23.4.0 Build 79 11/22/2023 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++--------------------------------------------------------------------------------+
+; IP Information                                                                 ;
++----------------------+---------------------------------------------------------+
+; IP Variation Name    ; qsys_top                                                ;
+; Prior Version        ; ACDS_v22.4                                              ;
+; New Version          ; ACDS_v23.4                                              ;
+; New File             ; /home/sam-admin/fgh/basic hps/qsys_top/synth/qsys_top.v ;
+; Has Port Differences ; No                                                      ;
++----------------------+---------------------------------------------------------+
+
+

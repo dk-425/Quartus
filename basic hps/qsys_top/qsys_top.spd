@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="altera_merlin_axi_translator_1931/sim/qsys_top_altera_merlin_axi_translator_1931_d46vvwa.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_axi_translator_1931" />
+ <file
+   path="altera_merlin_slave_translator_191/sim/qsys_top_altera_merlin_slave_translator_191_x56fcki.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_slave_translator_191" />
+ <file
+   path="altera_merlin_axi_master_ni_1962/sim/altera_merlin_address_alignment.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_axi_master_ni_1962" />
+ <file
+   path="altera_merlin_axi_master_ni_1962/sim/qsys_top_altera_merlin_axi_master_ni_1962_2kryw2a.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_axi_master_ni_1962" />
+ <file
+   path="altera_merlin_slave_agent_1921/sim/qsys_top_altera_merlin_slave_agent_1921_b6r3djy.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_slave_agent_1921" />
+ <file
+   path="altera_merlin_slave_agent_1921/sim/altera_merlin_burst_uncompressor.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_slave_agent_1921" />
+ <file
+   path="altera_avalon_sc_fifo_1931/sim/qsys_top_altera_avalon_sc_fifo_1931_vhmcgqy.v"
+   type="VERILOG"
+   library="altera_avalon_sc_fifo_1931" />
+ <file
+   path="altera_merlin_router_1921/sim/qsys_top_altera_merlin_router_1921_xjikzeq.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_router_1921" />
+ <file
+   path="altera_merlin_router_1921/sim/qsys_top_altera_merlin_router_1921_4q6uyiq.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_router_1921" />
+ <file
+   path="altera_avalon_st_pipeline_stage_1930/sim/qsys_top_altera_avalon_st_pipeline_stage_1930_bv2ucky.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_avalon_st_pipeline_stage_1930" />
+ <file
+   path="altera_avalon_st_pipeline_stage_1930/sim/altera_avalon_st_pipeline_base.v"
+   type="SYSTEM_VERILOG"
+   library="altera_avalon_st_pipeline_stage_1930" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/qsys_top_altera_merlin_burst_adapter_altera_avalon_st_pipeline_stage_1931_gncw4ji.v"
+   type="VERILOG"
+   library="altera_merlin_burst_adapter_1931"
+   hasInlineConfiguration="true" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/qsys_top_altera_merlin_burst_adapter_1931_iirrl6i.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_merlin_burst_adapter_uncmpr.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_merlin_burst_adapter_13_1.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_merlin_burst_adapter_new.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_incr_burst_converter.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_wrap_burst_converter.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_default_burst_converter.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_merlin_address_alignment.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_demultiplexer_1921/sim/qsys_top_altera_merlin_demultiplexer_1921_7w2ffaa.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_demultiplexer_1921" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/qsys_top_altera_merlin_multiplexer_1922_m7v5tgi.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_demultiplexer_1921/sim/qsys_top_altera_merlin_demultiplexer_1921_zeqxbai.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_demultiplexer_1921" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/qsys_top_altera_merlin_multiplexer_1922_pvrwnty.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_mm_interconnect_1920/sim/qsys_top_altera_mm_interconnect_1920_yigfcli.v"
+   type="VERILOG"
+   library="altera_mm_interconnect_1920"
+   hasInlineConfiguration="true" />
+ <file
+   path="altera_merlin_router_1921/sim/qsys_top_altera_merlin_router_1921_g4nzxoa.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_router_1921" />
+ <file
+   path="altera_merlin_router_1921/sim/qsys_top_altera_merlin_router_1921_daoa7wi.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_router_1921" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/qsys_top_altera_merlin_burst_adapter_altera_avalon_st_pipeline_stage_1931_luvkc2q.v"
+   type="VERILOG"
+   library="altera_merlin_burst_adapter_1931"
+   hasInlineConfiguration="true" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/qsys_top_altera_merlin_burst_adapter_1931_rnbm54y.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_merlin_burst_adapter_uncmpr.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_merlin_burst_adapter_13_1.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_merlin_burst_adapter_new.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_incr_burst_converter.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_wrap_burst_converter.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_default_burst_converter.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_burst_adapter_1931/sim/altera_merlin_address_alignment.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_burst_adapter_1931" />
+ <file
+   path="altera_merlin_demultiplexer_1921/sim/qsys_top_altera_merlin_demultiplexer_1921_n77vofi.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_demultiplexer_1921" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/qsys_top_altera_merlin_multiplexer_1922_sejd2qy.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_demultiplexer_1921/sim/qsys_top_altera_merlin_demultiplexer_1921_zjcvwny.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_demultiplexer_1921" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/qsys_top_altera_merlin_multiplexer_1922_rvmlpmi.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_merlin_multiplexer_1922/sim/altera_merlin_arbitrator.sv"
+   type="SYSTEM_VERILOG"
+   library="altera_merlin_multiplexer_1922" />
+ <file
+   path="altera_mm_interconnect_1920/sim/qsys_top_altera_mm_interconnect_1920_6idghsa.v"
+   type="VERILOG"
+   library="altera_mm_interconnect_1920"
+   hasInlineConfiguration="true" />
+ <file
+   path="altera_reset_controller_1922/sim/altera_reset_controller.v"
+   type="VERILOG"
+   library="altera_reset_controller_1922" />
+ <file
+   path="altera_reset_controller_1922/sim/altera_reset_synchronizer.v"
+   type="VERILOG"
+   library="altera_reset_controller_1922" />
+ <file
+   path="altera_reset_controller_1922/sim/altera_reset_controller.sdc"
+   type="SDC_ENTITY"
+   library="altera_reset_controller_1922" />
+ <file
+   path="sim/qsys_top.v"
+   type="VERILOG"
+   library="qsys_top"
+   hasInlineConfiguration="true" />
+ <topLevel name="qsys_top.qsys_top" />
+ <deviceFamily name="agilex7" />
+ <device name="AGFB014R24B2E2V" />
+ <modelMap
+   controllerPath="qsys_top.onchip_memory2_0"
+   modelPath="qsys_top.onchip_memory2_0" />
+</simPackage>

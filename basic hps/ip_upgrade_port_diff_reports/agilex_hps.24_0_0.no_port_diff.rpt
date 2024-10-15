@@ -1,0 +1,23 @@
+IP Ports Diff Report for agilex_hps
+Thu Jan 11 11:15:30 2024
+Quartus Prime Version 23.4.0 Build 79 11/22/2023 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++------------------------------------------------------------------------------------------------+
+; IP Information                                                                                 ;
++----------------------+-------------------------------------------------------------------------+
+; IP Variation Name    ; agilex_hps                                                              ;
+; Prior Version        ; 23.0.0                                                                  ;
+; New Version          ; 24.0.0                                                                  ;
+; New File             ; /home/sam-admin/fgh/basic hps/ip/qsys_top/agilex_hps/synth/agilex_hps.v ;
+; Has Port Differences ; No                                                                      ;
++----------------------+-------------------------------------------------------------------------+
+
+

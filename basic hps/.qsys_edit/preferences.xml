@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <window width="1100" height="741" x="72" y="27" />
+ <systemtable filter="All Interfaces" />
+ <library
+   expandedCategories="Library/Basic Functions/DMA,Library/Basic Functions,Library/Basic Functions/DMA/mSGDMA Sub-core,Library,Project" />
+ <generation path="" />
+</preferences>

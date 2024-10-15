@@ -1,0 +1,23 @@
+IP Ports Diff Report for emif_hps
+Thu Jan 11 11:15:30 2024
+Quartus Prime Version 23.4.0 Build 79 11/22/2023 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++--------------------------------------------------------------------------------------------+
+; IP Information                                                                             ;
++----------------------+---------------------------------------------------------------------+
+; IP Variation Name    ; emif_hps                                                            ;
+; Prior Version        ; 2.6.2                                                               ;
+; New Version          ; 2.7.3                                                               ;
+; New File             ; /home/sam-admin/fgh/basic hps/ip/qsys_top/emif_hps/synth/emif_hps.v ;
+; Has Port Differences ; No                                                                  ;
++----------------------+---------------------------------------------------------------------+
+
+

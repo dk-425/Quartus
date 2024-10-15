@@ -1,0 +1,23 @@
+IP Ports Diff Report for user_rst_clkgate_0
+Thu Jan 11 11:15:30 2024
+Quartus Prime Version 23.4.0 Build 79 11/22/2023 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; IP Information                                                                                                 ;
++----------------------+-----------------------------------------------------------------------------------------+
+; IP Variation Name    ; user_rst_clkgate_0                                                                      ;
+; Prior Version        ; 19.4.1                                                                                  ;
+; New Version          ; 19.4.7                                                                                  ;
+; New File             ; /home/sam-admin/fgh/basic hps/ip/qsys_top/user_rst_clkgate_0/synth/user_rst_clkgate_0.v ;
+; Has Port Differences ; No                                                                                      ;
++----------------------+-----------------------------------------------------------------------------------------+
+
+
