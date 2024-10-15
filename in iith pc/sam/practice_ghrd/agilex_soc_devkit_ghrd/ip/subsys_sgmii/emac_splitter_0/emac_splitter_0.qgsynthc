@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:altera="http://www.altera.com/XMLSchema/Qsys/SystemTree">
+  <instanceKey xsi:type="xs:string">emac_splitter_0</instanceKey>
+  <instanceData xsi:type="data">
+    <parameters></parameters>
+    <interconnectAssignments></interconnectAssignments>
+    <className>emac_splitter_0</className>
+    <version>1.0</version>
+    <name>emac_splitter_0</name>
+    <uniqueName>emac_splitter_0</uniqueName>
+    <nonce>0</nonce>
+    <incidentConnections></incidentConnections>
+  </instanceData>
+  <children>
+    <node>
+      <instanceKey xsi:type="xs:string">altera_hps_emac_interface_splitter_inst</instanceKey>
+      <instanceData xsi:type="data">
+        <parameters>
+          <parameter>
+            <name>DEVICE_FAMILY</name>
+            <value>Agilex</value>
+          </parameter>
+          <parameter>
+            <name>MAC_SPEED_CSR_ENABLE</name>
+            <value>0</value>
+          </parameter>
+        </parameters>
+        <interconnectAssignments></interconnectAssignments>
+        <className>altera_hps_emac_interface_splitter</className>
+        <version>19.2.1</version>
+        <name>altera_hps_emac_interface_splitter_inst</name>
+        <uniqueName>altera_hps_emac_interface_splitter</uniqueName>
+        <fixedName>altera_hps_emac_interface_splitter</fixedName>
+        <nonce>0</nonce>
+        <incidentConnections></incidentConnections>
+        <path>emac_splitter_0.altera_hps_emac_interface_splitter_inst</path>
+      </instanceData>
+      <children></children>
+    </node>
+  </children>
+</node>

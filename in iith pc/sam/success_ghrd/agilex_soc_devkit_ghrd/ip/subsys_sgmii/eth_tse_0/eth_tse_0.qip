@@ -1,0 +1,257 @@
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_TOOL_VERSION "22.4"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_TOP_LEVEL_COMPONENT_NAME "altera_eth_tse"
+set_global_assignment -library "eth_tse_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "eth_tse_0.sopcinfo"]
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name SLD_INFO "QSYS_NAME eth_tse_0 HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "eth_tse_0" -name MISC_FILE [file join $::quartus(qip_path) "eth_tse_0.cmp"]
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_TARGETED_DEVICE_FAMILY "Agilex"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_TARGETED_PART_TRAIT "BASE_DEVICE::FM6REVB"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_TARGETED_PART_TRAIT "DEVICE_SPEEDGRADE::2"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_TARGETED_PART_TRAIT "part.DEVICE_IOBANK_REVISION::IO96A_REVB2"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_GENERATED_DEVICE_FAMILY "Agilex"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "eth_tse_0" -name MISC_FILE [file join $::quartus(qip_path) "../eth_tse_0.ip"]
+
+set_global_assignment -entity "altera_eth_tse_pcs_pma_nf_lvds" -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name IP_COMPONENT_NAME "YWx0ZXJhX2V0aF90c2VfcGNzX3BtYV9uZl9sdmRz"
+set_global_assignment -entity "altera_eth_tse_pcs_pma_nf_lvds" -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name IP_COMPONENT_DISPLAY_NAME "YWx0ZXJhX2V0aF90c2VfcGNzX3BtYV9uZl9sdmRz"
+set_global_assignment -entity "altera_eth_tse_pcs_pma_nf_lvds" -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_eth_tse_pcs_pma_nf_lvds" -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name IP_COMPONENT_INTERNAL "On"
+set_global_assignment -entity "altera_eth_tse_pcs_pma_nf_lvds" -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "altera_eth_tse_pcs_pma_nf_lvds" -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name IP_COMPONENT_VERSION "MTkuNS4w"
+set_global_assignment -entity "altera_eth_tse_ag_lvds_terminator" -library "altera_eth_tse_ag_lvds_terminator_1950" -name IP_COMPONENT_NAME "YWx0ZXJhX2V0aF90c2VfYWdfbHZkc190ZXJtaW5hdG9y"
+set_global_assignment -entity "altera_eth_tse_ag_lvds_terminator" -library "altera_eth_tse_ag_lvds_terminator_1950" -name IP_COMPONENT_DISPLAY_NAME "YWx0ZXJhX2V0aF90c2VfYWdfbHZkc190ZXJtaW5hdG9y"
+set_global_assignment -entity "altera_eth_tse_ag_lvds_terminator" -library "altera_eth_tse_ag_lvds_terminator_1950" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_eth_tse_ag_lvds_terminator" -library "altera_eth_tse_ag_lvds_terminator_1950" -name IP_COMPONENT_INTERNAL "On"
+set_global_assignment -entity "altera_eth_tse_ag_lvds_terminator" -library "altera_eth_tse_ag_lvds_terminator_1950" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "altera_eth_tse_ag_lvds_terminator" -library "altera_eth_tse_ag_lvds_terminator_1950" -name IP_COMPONENT_VERSION "MTkuNS4w"
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_NAME "ZXRoX3RzZV8wX2FsdGVyYV9pb3BsbF8xOTMxX2M2cXB6ZmE="
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_DISPLAY_NAME "SU9QTEwgSW50ZWwgRlBHQSBJUA=="
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_VERSION "MTkuMy4x"
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_DESCRIPTION "SW50ZWwgRlBHQSBQaGFzZS1Mb2NrZWQgTG9vcCAoSU9QTEwgSW50ZWwgRlBHQSBJUCk="
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0Nsb2NrczsgUExMcyBhbmQgUmVzZXRzL1BMTA=="
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzI4NS8="
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzI4NS8="
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzE5NS8="
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4Mzc2MS8="
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzE2Ni8="
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IP_COMPONENT_NAME "ZXRoX3RzZV8wX2ludGVsX2x2ZHNfY29yZTEwXzE5MV92dnV0b3Nx"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IP_COMPONENT_DISPLAY_NAME "aW50ZWxfbHZkc19jb3JlMTA="
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IP_COMPONENT_INTERNAL "On"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IP_COMPONENT_VERSION "MTkuMQ=="
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IP_COMPONENT_DESCRIPTION "aW50bHZkcyAxME5NIENvcmU="
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IP_COMPONENT_GROUP "SS9P"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_NAME "ZXRoX3RzZV8wX2FsdGVyYV9sdmRzXzIwMDFfZjZhdmd3cQ=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_DISPLAY_NAME "TFZEUyBTRVJERVMgSW50ZWwgRlBHQSBJUA=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_VERSION "MjAuMC4x"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_DESCRIPTION "SW50ZWwgRlBHQSBMVkRTIFNFUkRFUw=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0kvTw=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzUyMC9jdXJyZW50L3VzZXItZ3VpZGUtaW50ZWwtYXJyaWEtMTAtYW5kLWludGVsLmh0bWw="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzcyMTgxOS9jdXJyZW50L2x2ZHMtc2VyZGVzLWludGVsLWZwZ2EtaXAuaHRtbA=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4Mzc5Mi9jdXJyZW50L2x2ZHMtc2VyZGVzLWludGVsLWZwZ2EtaXAuaHRtbA=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzU3NS9jdXJyZW50L2x2ZHMtc2VyZGVzLWludGVsLWZwZ2EtaXAtcmVsZWFzZS1ub3Rlcy5odG1s"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IP_COMPONENT_NAME "ZXRoX3RzZV8wX2ludGVsX2x2ZHNfY29yZTEwXzE5MV80dHFuNGpp"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IP_COMPONENT_DISPLAY_NAME "aW50ZWxfbHZkc19jb3JlMTA="
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IP_COMPONENT_INTERNAL "On"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IP_COMPONENT_VERSION "MTkuMQ=="
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IP_COMPONENT_DESCRIPTION "aW50bHZkcyAxME5NIENvcmU="
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IP_COMPONENT_GROUP "SS9P"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_NAME "ZXRoX3RzZV8wX2FsdGVyYV9sdmRzXzIwMDFfMmFzZmozaQ=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_DISPLAY_NAME "TFZEUyBTRVJERVMgSW50ZWwgRlBHQSBJUA=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_VERSION "MjAuMC4x"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_DESCRIPTION "SW50ZWwgRlBHQSBMVkRTIFNFUkRFUw=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0kvTw=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzUyMC9jdXJyZW50L3VzZXItZ3VpZGUtaW50ZWwtYXJyaWEtMTAtYW5kLWludGVsLmh0bWw="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzcyMTgxOS9jdXJyZW50L2x2ZHMtc2VyZGVzLWludGVsLWZwZ2EtaXAuaHRtbA=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4Mzc5Mi9jdXJyZW50L2x2ZHMtc2VyZGVzLWludGVsLWZwZ2EtaXAuaHRtbA=="
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzU3NS9jdXJyZW50L2x2ZHMtc2VyZGVzLWludGVsLWZwZ2EtaXAtcmVsZWFzZS1ub3Rlcy5odG1s"
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_COMPONENT_NAME "ZXRoX3RzZV8wX2FsdGVyYV9ldGhfdHNlXzIxMTBfcmJlZ2l4eQ=="
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_COMPONENT_DISPLAY_NAME "VHJpcGxlLVNwZWVkIEV0aGVybmV0IEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_COMPONENT_VERSION "MjEuMS4w"
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_COMPONENT_DESCRIPTION "SW50ZWwgVHJpcGxlIFNwZWVkIEV0aGVybmV0"
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_COMPONENT_GROUP "SW50ZXJmYWNlIFByb3RvY29scy9FdGhlcm5ldC8xRyBNdWx0aS1yYXRlIEV0aGVybmV0"
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzQwMi8="
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzIxNS8="
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzU1MS8="
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_COMPONENT_NAME "ZXRoX3RzZV8w"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_tse_0" -library "eth_tse_0" -name IP_COMPONENT_VERSION "MS4w"
+
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name UNCONNECTED_OUTPUT_PORT_MESSAGE_LEVEL OFF
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IO_STANDARD "TRUE DIFFERENTIAL SIGNALING" -to "inclock"
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IO_STANDARD "TRUE DIFFERENTIAL SIGNALING" -to "tx_out_p[0]"
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IO_STANDARD "TRUE DIFFERENTIAL SIGNALING" -to "tx_out_n[0]"
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name MESSAGE_DISABLE 10034
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name MESSAGE_DISABLE 10230
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name UNCONNECTED_OUTPUT_PORT_MESSAGE_LEVEL OFF
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IO_STANDARD "TRUE DIFFERENTIAL SIGNALING" -to "inclock"
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IO_STANDARD "TRUE DIFFERENTIAL SIGNALING" -to "tx_outclock_p"
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IO_STANDARD "TRUE DIFFERENTIAL SIGNALING" -to "tx_outclock_n"
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IO_STANDARD "TRUE DIFFERENTIAL SIGNALING" -to "rx_in_p[0]"
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IO_STANDARD "TRUE DIFFERENTIAL SIGNALING" -to "rx_in_n[0]"
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name MESSAGE_DISABLE 10034
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name MESSAGE_DISABLE 10230
+set_instance_assignment -name IO_STANDARD "TRUE DIFFERENTIAL SIGNALING" -to ref_clk
+set_instance_assignment -name IO_STANDARD "TRUE DIFFERENTIAL SIGNALING" -to txp
+set_instance_assignment -name IO_STANDARD "TRUE DIFFERENTIAL SIGNALING" -to rxp
+
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_eth_tse_pcs_pma_nf_lvds.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_align_sync.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_dec10b8b.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_dec_func.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_enc8b10b.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_autoneg.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_carrier_sense.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_sgmii_clk_div.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_sgmii_clk_enable.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_rx_encapsulation.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_tx_encapsulation.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_rx_encapsulation_strx_gx.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_pcs_control.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_pcs_host_control.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_mdio_reg.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_mii_rx_if_pcs.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_mii_tx_if_pcs.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_rx_sync.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_sgmii_clk_cntl.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_colision_detect.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_rx_converter.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_rx_fifo_rd.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_rx_converter.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_sgmii.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_sgmii_strx_gx.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_tx_converter.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_tx_converter.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_1000_base_x.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_1000_base_x_strx_gx.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_pcs.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_pcs_strx_gx.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_rx.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_tx.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_lvds_reset_sequencer.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_lvds_reverse_loopback.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_pma_lvds_rx_av.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_pma_lvds_rx.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_pma_lvds_tx.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_eth_tse_std_synchronizer.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_eth_tse_std_synchronizer_bundle.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_eth_tse_ptp_std_synchronizer.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_false_path_marker.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_reset_synchronizer.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_clock_crosser.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_a_fifo_13.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_a_fifo_24.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_a_fifo_34.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_a_fifo_opt_1246.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_a_fifo_opt_14_44.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_a_fifo_opt_36_10.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_gray_cnt.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_sdpm_altsyncram.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_altsyncram_dpm_fifo.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_bin_cnt.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ph_calculator.sv"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_sdpm_gen.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_dec_x10.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x10.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x10_wrapper.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_dec_x14.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x14.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x14_wrapper.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_dec_x2.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x2.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x2_wrapper.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_dec_x23.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x23.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x23_wrapper.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_dec_x36.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x36.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x36_wrapper.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_dec_x40.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x40.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x40_wrapper.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_dec_x30.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x30.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_enc_x30_wrapper.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_ecc_status_crosser.v"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name SOURCE_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_1000_base_x.ocp"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name SOURCE_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_tse_top_1000_base_x_strx_gx.ocp"]
+set_global_assignment -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_std_synchronizer_nocut.v"]
+set_instance_assignment -entity "altera_eth_tse_pcs_pma_nf_lvds" -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "altera_eth_tse_pcs_pma_nf_lvds_1950/synth/altera_eth_tse_pcs_pma_nf_lvds.sdc"] -no_sdc_promotion  -no_auto_inst_discovery 
+set_global_assignment -library "altera_eth_tse_ag_lvds_terminator_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_ag_lvds_terminator_1950/synth/altera_eth_tse_std_synchronizer.v"]
+set_global_assignment -library "altera_eth_tse_ag_lvds_terminator_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_ag_lvds_terminator_1950/synth/altera_eth_tse_ag_lvds_terminator.v"]
+set_global_assignment -library "altera_eth_tse_ag_lvds_terminator_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_ag_lvds_terminator_1950/synth/altera_tse_reset_synchronizer.v"]
+set_global_assignment -library "altera_eth_tse_ag_lvds_terminator_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_ag_lvds_terminator_1950/synth/altera_tse_lvds_tx_clockcomp_fifo.v"]
+set_global_assignment -library "altera_eth_tse_ag_lvds_terminator_1950" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_ag_lvds_terminator_1950/synth/altera_tse_async_fifo_fpga.sv"]
+set_global_assignment -library "altera_eth_tse_ag_lvds_terminator_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_ag_lvds_terminator_1950/synth/altera_tse_nf_lvds_channel_reset_sequencer.v"]
+set_global_assignment -library "altera_eth_tse_ag_lvds_terminator_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_ag_lvds_terminator_1950/synth/altera_tse_nf_lvds_common_reset_sequencer.v"]
+set_global_assignment -library "altera_eth_tse_ag_lvds_terminator_1950" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_ag_lvds_terminator_1950/synth/altera_std_synchronizer_nocut.v"]
+set_instance_assignment -entity "altera_eth_tse_ag_lvds_terminator" -library "altera_eth_tse_ag_lvds_terminator_1950" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "altera_eth_tse_ag_lvds_terminator_1950/synth/altera_eth_tse_ag_lvds_terminator.sdc"] -no_sdc_promotion  -no_auto_inst_discovery 
+set_global_assignment -library "altera_iopll_1931" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_iopll_1931/synth/eth_tse_0_altera_iopll_1931_c6qpzfa.v"]
+set_instance_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name TCL_ENTITY_FILE [file join $::quartus(qip_path) "altera_iopll_1931/synth/eth_tse_0_altera_iopll_1931_c6qpzfa_all_ip_params.tcl"]
+set_instance_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name TCL_ENTITY_FILE [file join $::quartus(qip_path) "altera_iopll_1931/synth/eth_tse_0_altera_iopll_1931_c6qpzfa_parameters.tcl"]
+set_instance_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "altera_iopll_1931/synth/eth_tse_0_altera_iopll_1931_c6qpzfa.sdc"] -no_sdc_promotion  -no_auto_inst_discovery 
+set_instance_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name TCL_ENTITY_FILE [file join $::quartus(qip_path) "altera_iopll_1931/synth/eth_tse_0_altera_iopll_1931_c6qpzfa_pin_map.tcl"]
+set_global_assignment -library "altera_iopll_1931" -name SOURCE_FILE [file join $::quartus(qip_path) "altera_iopll_1931/synth/agilex_iobank_pll.ipxact"]
+set_global_assignment -library "intel_lvds_core10_191" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "intel_lvds_core10_191/synth/intel_lvds_core10_eth_tse_0_intel_lvds_core10_191_vvutosq.sv"]
+set_global_assignment -library "intel_lvds_core10_191" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "intel_lvds_core10_191/synth/eth_tse_0_intel_lvds_core10_191_vvutosq.sv"]
+set_global_assignment -library "intel_lvds_core10_191" -name VERILOG_FILE [file join $::quartus(qip_path) "intel_lvds_core10_191/synth/altera_std_synchronizer_nocut.v"]
+set_global_assignment -library "intel_lvds_core10_191" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "intel_lvds_core10_191/synth/intel_lvds_common10.sv"]
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name TCL_ENTITY_FILE [file join $::quartus(qip_path) "intel_lvds_core10_191/synth/eth_tse_0_intel_lvds_core10_191_vvutosq_ip_parameters.tcl"]
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name TCL_ENTITY_FILE [file join $::quartus(qip_path) "intel_lvds_core10_191/synth/sdc_util.tcl"]
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "intel_lvds_core10_191/synth/eth_tse_0_intel_lvds_core10_191_vvutosq.sdc"] -no_sdc_promotion  -no_auto_inst_discovery 
+set_global_assignment -library "altera_lvds_2001" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_lvds_2001/synth/eth_tse_0_altera_lvds_2001_f6avgwq.v"]
+set_global_assignment -library "intel_lvds_core10_191" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "intel_lvds_core10_191/synth/intel_lvds_core10_eth_tse_0_intel_lvds_core10_191_4tqn4ji.sv"]
+set_global_assignment -library "intel_lvds_core10_191" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "intel_lvds_core10_191/synth/eth_tse_0_intel_lvds_core10_191_4tqn4ji.sv"]
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name TCL_ENTITY_FILE [file join $::quartus(qip_path) "intel_lvds_core10_191/synth/eth_tse_0_intel_lvds_core10_191_4tqn4ji_ip_parameters.tcl"]
+set_instance_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "intel_lvds_core10_191/synth/eth_tse_0_intel_lvds_core10_191_4tqn4ji.sdc"] -no_sdc_promotion  -no_auto_inst_discovery 
+set_global_assignment -library "altera_lvds_2001" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_lvds_2001/synth/eth_tse_0_altera_lvds_2001_2asfj3i.v"]
+set_global_assignment -library "altera_eth_tse_2110" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_eth_tse_2110/synth/eth_tse_0_altera_eth_tse_2110_rbegixy.v"]
+set_global_assignment -library "eth_tse_0" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/eth_tse_0.v"]
+
+
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_TOOL_NAME "altera_eth_tse"
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_TOOL_VERSION "21.1.0"
+set_global_assignment -entity "eth_tse_0_altera_eth_tse_2110_rbegixy" -library "altera_eth_tse_2110" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_TOOL_NAME "altera_lvds"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_TOOL_VERSION "20.0.1"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_2asfj3i" -library "altera_lvds_2001" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IP_TOOL_NAME "intel_lvds_core10"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IP_TOOL_VERSION "19.1"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_4tqn4ji" -library "intel_lvds_core10_191" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_TOOL_NAME "altera_lvds"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_TOOL_VERSION "20.0.1"
+set_global_assignment -entity "eth_tse_0_altera_lvds_2001_f6avgwq" -library "altera_lvds_2001" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IP_TOOL_NAME "intel_lvds_core10"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IP_TOOL_VERSION "19.1"
+set_global_assignment -entity "eth_tse_0_intel_lvds_core10_191_vvutosq" -library "intel_lvds_core10_191" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_TOOL_NAME "altera_iopll"
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_TOOL_VERSION "19.3.1"
+set_global_assignment -entity "eth_tse_0_altera_iopll_1931_c6qpzfa" -library "altera_iopll_1931" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "altera_eth_tse_ag_lvds_terminator" -library "altera_eth_tse_ag_lvds_terminator_1950" -name IP_TOOL_NAME "altera_eth_tse_ag_lvds_terminator"
+set_global_assignment -entity "altera_eth_tse_ag_lvds_terminator" -library "altera_eth_tse_ag_lvds_terminator_1950" -name IP_TOOL_VERSION "19.5.0"
+set_global_assignment -entity "altera_eth_tse_ag_lvds_terminator" -library "altera_eth_tse_ag_lvds_terminator_1950" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "altera_eth_tse_pcs_pma_nf_lvds" -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name IP_TOOL_NAME "altera_eth_tse_pcs_pma_nf_lvds"
+set_global_assignment -entity "altera_eth_tse_pcs_pma_nf_lvds" -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name IP_TOOL_VERSION "19.5.0"
+set_global_assignment -entity "altera_eth_tse_pcs_pma_nf_lvds" -library "altera_eth_tse_pcs_pma_nf_lvds_1950" -name IP_TOOL_ENV "QsysPrimePro"
+

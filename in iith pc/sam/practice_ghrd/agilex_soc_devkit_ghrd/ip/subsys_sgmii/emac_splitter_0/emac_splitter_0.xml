@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2024.01.04.15:41:48"
+ outputDirectory="/home/wisig/sam/practice_ghrd/agilex_soc_devkit_ghrd/ip/subsys_sgmii/emac_splitter_0/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Agilex"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="AGFB014R24B2E2V"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="2"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_EMAC_GTX_CLK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_EMAC_GTX_CLK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_EMAC_GTX_CLK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="emac_gtx_clk" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="phy_txclk_o" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="emac_tx_clk_in" kind="clock" start="1">
+   <property name="associatedDirectClock" value="" />
+   <property name="clockRate" value="0" />
+   <property name="clockRateKnown" value="false" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk_tx_i" direction="output" role="clk" width="1" />
+  </interface>
+  <interface name="emac_rx_clk_in" kind="clock" start="1">
+   <property name="associatedDirectClock" value="" />
+   <property name="clockRate" value="0" />
+   <property name="clockRateKnown" value="false" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk_rx_i" direction="output" role="clk" width="1" />
+  </interface>
+  <interface name="emac_tx_reset" kind="reset" start="0">
+   <property name="associatedClock" value="emac_gtx_clk" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="rst_tx_n_o" direction="input" role="reset_n" width="1" />
+  </interface>
+  <interface name="emac_rx_reset" kind="reset" start="0">
+   <property name="associatedClock" value="emac_rx_clk_in" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="rst_rx_n_o" direction="input" role="reset_n" width="1" />
+  </interface>
+  <interface name="hps_gmii" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="mac_tx_clk_i" direction="input" role="phy_tx_clk_i" width="1" />
+   <port name="mac_rx_clk" direction="input" role="phy_rx_clk_i" width="1" />
+   <port name="mac_rxdv" direction="input" role="phy_rxdv_i" width="1" />
+   <port name="mac_rxer" direction="input" role="phy_rxer_i" width="1" />
+   <port name="mac_rxd" direction="input" role="phy_rxd_i" width="8" />
+   <port name="mac_col" direction="input" role="phy_col_i" width="1" />
+   <port name="mac_crs" direction="input" role="phy_crs_i" width="1" />
+   <port name="mac_tx_clk_o" direction="output" role="phy_tx_clk_o" width="1" />
+   <port name="mac_rst_tx_n" direction="output" role="rst_tx_n" width="1" />
+   <port name="mac_rst_rx_n" direction="output" role="rst_rx_n" width="1" />
+   <port name="mac_txd" direction="output" role="phy_txd_o" width="8" />
+   <port name="mac_txen" direction="output" role="phy_txen_o" width="1" />
+   <port name="mac_txer" direction="output" role="phy_txer_o" width="1" />
+   <port name="mac_speed" direction="output" role="phy_mac_speed_o" width="2" />
+  </interface>
+  <interface name="mdio" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="mdi_in" direction="input" role="gmii_mdi_i" width="1" />
+   <port name="mdo_out" direction="output" role="gmii_mdo_o" width="1" />
+   <port name="mdo_out_en" direction="output" role="gmii_mdo_o_e" width="1" />
+  </interface>
+  <interface name="emac" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port name="phy_txd_o" direction="input" role="phy_txd_o" width="8" />
+   <port name="phy_txen_o" direction="input" role="phy_txen_o" width="1" />
+   <port name="phy_txer_o" direction="input" role="phy_txer_o" width="1" />
+   <port
+       name="phy_mac_speed_o"
+       direction="input"
+       role="phy_mac_speed_o"
+       width="2" />
+   <port name="mdo_o" direction="input" role="gmii_mdo_o" width="1" />
+   <port name="mdo_o_e" direction="input" role="gmii_mdo_o_e" width="1" />
+   <port name="ptp_pps_o" direction="input" role="ptp_pps_o" width="1" />
+   <port name="phy_rxdv_i" direction="output" role="phy_rxdv_i" width="1" />
+   <port name="phy_rxer_i" direction="output" role="phy_rxer_i" width="1" />
+   <port name="phy_rxd_i" direction="output" role="phy_rxd_i" width="8" />
+   <port name="phy_col_i" direction="output" role="phy_col_i" width="1" />
+   <port name="phy_crs_i" direction="output" role="phy_crs_i" width="1" />
+   <port name="mdi_i" direction="output" role="gmii_mdi_i" width="1" />
+   <port
+       name="ptp_aux_ts_trig_i"
+       direction="output"
+       role="ptp_aux_ts_trig_i"
+       width="1" />
+   <port
+       name="ptp_tstmp_data"
+       direction="input"
+       role="ptp_tstmp_data"
+       width="1" />
+   <port name="ptp_tstmp_en" direction="input" role="ptp_tstmp_en" width="1" />
+  </interface>
+  <interface name="ptp" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <property name="prSafe" value="false" />
+   <port
+       name="ptp_aux_ts_trig_in"
+       direction="input"
+       role="ptp_aux_ts_trig_i"
+       width="1" />
+   <port name="ptp_pps_out" direction="output" role="ptp_pps_o" width="1" />
+   <port
+       name="ptp_tstmp_data_out"
+       direction="output"
+       role="ptp_tstmp_data"
+       width="1" />
+   <port
+       name="ptp_tstmp_en_out"
+       direction="output"
+       role="ptp_tstmp_en"
+       width="1" />
+  </interface>
+ </perimeter>
+ <entity kind="emac_splitter_0" version="1.0" name="emac_splitter_0">
+  <parameter name="AUTO_EMAC_GTX_CLK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="0" />
+  <parameter name="AUTO_DEVICE" value="AGFB014R24B2E2V" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Agilex" />
+  <parameter name="AUTO_EMAC_GTX_CLK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_EMAC_GTX_CLK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="2" />
+  <generatedFiles>
+   <file
+       path="/home/wisig/sam/practice_ghrd/agilex_soc_devkit_ghrd/ip/subsys_sgmii/emac_splitter_0/synth/emac_splitter_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/wisig/sam/practice_ghrd/agilex_soc_devkit_ghrd/ip/subsys_sgmii/emac_splitter_0/synth/emac_splitter_0.v"
+       attributes="CONTAINS_INLINE_CONFIGURATION" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/home/wisig/sam/practice_ghrd/agilex_soc_devkit_ghrd/ip/subsys_sgmii/emac_splitter_0.ip" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="/home/wisig/intelFPGA_pro/22.4/ip/altera/altera_hps_emac_interface_splitter/altera_hps_emac_interface_splitter_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Info" culprit="emac_splitter_0">"Generating: emac_splitter_0"</message>
+   <message level="Info" culprit="emac_splitter_0">"Generating: altera_hps_emac_interface_splitter"</message>
+  </messages>
+ </entity>
+ <entity
+   kind="altera_hps_emac_interface_splitter"
+   version="19.2.1"
+   name="altera_hps_emac_interface_splitter">
+  <parameter name="MAC_SPEED_CSR_ENABLE" value="0" />
+  <parameter name="DEVICE_FAMILY" value="Agilex" />
+  <generatedFiles>
+   <file
+       path="/home/wisig/sam/practice_ghrd/agilex_soc_devkit_ghrd/ip/subsys_sgmii/emac_splitter_0/altera_hps_emac_interface_splitter_1921/synth/altera_hps_emac_interface_splitter.v"
+       attributes="TOP_LEVEL_FILE" />
+   <file
+       path="/home/wisig/sam/practice_ghrd/agilex_soc_devkit_ghrd/ip/subsys_sgmii/emac_splitter_0/altera_hps_emac_interface_splitter_1921/synth/altera_hps_emac_interface_splitter_csr.v"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/wisig/sam/practice_ghrd/agilex_soc_devkit_ghrd/ip/subsys_sgmii/emac_splitter_0/altera_hps_emac_interface_splitter_1921/synth/altera_hps_emac_interface_splitter.v"
+       attributes="TOP_LEVEL_FILE" />
+   <file
+       path="/home/wisig/sam/practice_ghrd/agilex_soc_devkit_ghrd/ip/subsys_sgmii/emac_splitter_0/altera_hps_emac_interface_splitter_1921/synth/altera_hps_emac_interface_splitter_csr.v"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="/home/wisig/intelFPGA_pro/22.4/ip/altera/altera_hps_emac_interface_splitter/altera_hps_emac_interface_splitter_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator
+     instantiator="emac_splitter_0"
+     as="altera_hps_emac_interface_splitter_inst" />
+  <messages>
+   <message level="Info" culprit="emac_splitter_0">"Generating: altera_hps_emac_interface_splitter"</message>
+  </messages>
+ </entity>
+</deploy>

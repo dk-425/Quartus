@@ -1,0 +1,202 @@
+
+State Machine - Summary
+
+State Machine - soc_inst|subsys_sgmii_emac1|eth_tse_0|altera_eth_tse_inst|i_tse_pcs_0|altera_tse_top_1000_base_x_inst|U_SGMII|U_PCS|U_TX|U_FRM|state
+Name state.STM_TYP_CF_C2D state.STM_TYP_CF_C2C state.STM_TYP_CF_C2B state.STM_TYP_CF_C2A state.STM_TYP_CF_C1D state.STM_TYP_CF_C1C state.STM_TYP_CF_C1B state.STM_TYP_FRM_END3 state.STM_TYP_FRM_END2 state.STM_TYP_FRM_END state.STM_TYP_FRM state.STM_TYP_FRM_DATA_ERR state.STM_TYP_FRM_START_ERR state.STM_TYP_FRM_START state.STM_TYP_CF_C1A state.STM_TYP_IDLE 
+state.STM_TYP_IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.STM_TYP_CF_C1A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.STM_TYP_FRM_START 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.STM_TYP_FRM_START_ERR 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.STM_TYP_FRM_DATA_ERR 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.STM_TYP_FRM 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.STM_TYP_FRM_END 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.STM_TYP_FRM_END2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.STM_TYP_FRM_END3 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.STM_TYP_CF_C1B 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_CF_C1C 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_CF_C1D 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_CF_C2A 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_CF_C2B 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_CF_C2C 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_CF_C2D 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - soc_inst|jtg_mst|fpga_m|altera_jtag_avalon_master_inst|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_state
+Name write_state.ST_WRITE_DATA write_state.ST_HEADER_2 write_state.ST_HEADER_1 write_state.ST_BYPASS 
+write_state.ST_BYPASS 0 0 0 0 
+write_state.ST_HEADER_1 0 0 1 1 
+write_state.ST_HEADER_2 0 1 0 1 
+write_state.ST_WRITE_DATA 1 0 0 1 
+
+State Machine - soc_inst|jtg_mst|fpga_m|altera_jtag_avalon_master_inst|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_state
+Name read_state.ST_HEADER read_state.ST_READ_DATA read_state.ST_PADDED 
+read_state.ST_HEADER 0 0 0 
+read_state.ST_READ_DATA 1 1 0 
+read_state.ST_PADDED 1 0 1 
+
+State Machine - soc_inst|mm_interconnect_0|subsys_sgmii_emac1_csr_burst_adapter|altera_merlin_burst_adapter_new.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 
+state.ST_COMP_TRANS 1 0 1 
+state.ST_UNCOMP_TRANS 1 1 0 
+
+State Machine - soc_inst|mm_interconnect_0|periph_pb_cpu_0_s0_burst_adapter|altera_merlin_burst_adapter_new.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 
+state.ST_COMP_TRANS 1 0 1 
+state.ST_UNCOMP_TRANS 1 1 0 
+
+State Machine - soc_inst|periph|ilc|interrupt_latency_counter_inst|state_machine[0].state_machine_counter|state
+Name state.STORE state.STOP state.START state.IDLE 
+state.IDLE 0 0 0 0 
+state.START 0 0 1 1 
+state.STOP 0 1 0 1 
+state.STORE 1 0 0 1 
+
+State Machine - soc_inst|periph|ilc|interrupt_latency_counter_inst|state_machine[1].state_machine_counter|state
+Name state.STORE state.STOP state.START state.IDLE 
+state.IDLE 0 0 0 0 
+state.START 0 0 1 1 
+state.STOP 0 1 0 1 
+state.STORE 1 0 0 1 
+
+State Machine - soc_inst|subsys_sgmii_emac1|eth_tse_0|altera_eth_tse_inst|i_tse_pcs_0|altera_tse_top_1000_base_x_inst|U_SGMII|U_PCS|U_RX|U_FRM|state
+Name state.STM_TYP_EARLY_END_EXTEND3 state.STM_TYP_EARLY_END_EXTEND2 state.STM_TYP_FRM_END_EXTEND2 state.STM_TYP_FRM_END2 state.STM_TYP_EARLY_END_EXTEND1 state.STM_TYP_EARLY_END state.STM_TYP_FRM_END_EXTEND1 state.STM_TYP_FRM_END1 state.STM_TYP_FRM state.STM_TYP_AN_CD state.STM_TYP_AN_CC state.STM_TYP_FALSE_CAR state.STM_TYP_FRM_START state.STM_TYP_IDLE_D state.STM_TYP_RX_INVAL state.STM_TYP_AN_CB state.STM_TYP_RX_K state.STM_TYP_RX_FAULT state.STM_TYP_K_WAIT 
+state.STM_TYP_K_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.STM_TYP_RX_FAULT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.STM_TYP_RX_K 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.STM_TYP_AN_CB 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.STM_TYP_RX_INVAL 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.STM_TYP_IDLE_D 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.STM_TYP_FRM_START 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.STM_TYP_FALSE_CAR 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.STM_TYP_AN_CC 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.STM_TYP_AN_CD 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_FRM 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_FRM_END1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_FRM_END_EXTEND1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_EARLY_END 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_EARLY_END_EXTEND1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_FRM_END2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_FRM_END_EXTEND2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_EARLY_END_EXTEND2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_EARLY_END_EXTEND3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - soc_inst|subsys_sgmii_emac1|eth_tse_0|altera_eth_tse_inst|i_tse_pcs_0|altera_tse_top_1000_base_x_inst|U_SGMII|U_RXCV|U_RXC|state
+Name state.STM_TYP_WAIT_RD state.STM_TYP_FF_WRITE state.STM_TYP_GIGA_MODE state.STM_TYP_IDLE 
+state.STM_TYP_IDLE 0 0 0 0 
+state.STM_TYP_GIGA_MODE 0 0 1 1 
+state.STM_TYP_FF_WRITE 0 1 0 1 
+state.STM_TYP_WAIT_RD 1 0 0 1 
+
+State Machine - soc_inst|subsys_sgmii_emac1|eth_tse_0|altera_eth_tse_inst|i_tse_pcs_0|altera_tse_top_1000_base_x_inst|U_SGMII|U_RXCV|ppm_cntr_1588|state
+Name state.BIT_20 state.BIT_17 state.BIT_14 state.START 
+state.START 0 0 0 0 
+state.BIT_14 0 0 1 1 
+state.BIT_17 0 1 0 1 
+state.BIT_20 1 0 0 1 
+
+State Machine - soc_inst|subsys_sgmii_emac1|eth_tse_0|altera_eth_tse_inst|i_lvdsio_terminator_0|the_altera_tse_lvds_common_reset_sequencer|state
+Name state.stm_dpa_reset state.stm_pll_locked state.stm_pll_areset_1 state.stm_pll_areset_0 state.stm_reset_done 
+state.stm_pll_areset_0 0 0 0 0 0 
+state.stm_pll_areset_1 0 0 1 1 0 
+state.stm_pll_locked 0 1 0 1 0 
+state.stm_dpa_reset 1 0 0 1 0 
+state.stm_reset_done 0 0 0 1 1 
+
+State Machine - soc_inst|subsys_sgmii_emac1|eth_tse_0|altera_eth_tse_inst|i_tse_pcs_0|altera_tse_top_1000_base_x_inst|U_REG|U_CTRL|state
+Name state.STM_TYPE_WAIT_CYCLE state.STM_TYPE_END_READ state.STM_TYPE_NEXT_CYCLE state.STM_TYPE_IDLE 
+state.STM_TYPE_IDLE 0 0 0 0 
+state.STM_TYPE_NEXT_CYCLE 0 0 1 1 
+state.STM_TYPE_END_READ 0 1 0 1 
+state.STM_TYPE_WAIT_CYCLE 1 0 0 1 
+
+State Machine - soc_inst|subsys_sgmii_emac1|eth_tse_0|altera_eth_tse_inst|i_tse_pcs_0|altera_tse_top_1000_base_x_inst|U_SGMII|U_PCS|U_AUTONEG|state
+Name state.STM_TYP_COMPLETE_ACK state.STM_TYP_ACK_DETECT state.STM_TYP_ABILITY_DETECT state.STM_TYP_AUTONEG_RESTART state.STM_TYP_NO_AN_LINK state.STM_TYP_LINK_OK state.STM_TYP_IDLE_DETECT state.STM_TYP_AUTONEG_ENA 
+state.STM_TYP_AUTONEG_ENA 0 0 0 0 0 0 0 0 
+state.STM_TYP_IDLE_DETECT 0 0 0 0 0 0 1 1 
+state.STM_TYP_LINK_OK 0 0 0 0 0 1 0 1 
+state.STM_TYP_NO_AN_LINK 0 0 0 0 1 0 0 1 
+state.STM_TYP_AUTONEG_RESTART 0 0 0 1 0 0 0 1 
+state.STM_TYP_ABILITY_DETECT 0 0 1 0 0 0 0 1 
+state.STM_TYP_ACK_DETECT 0 1 0 0 0 0 0 1 
+state.STM_TYP_COMPLETE_ACK 1 0 0 0 0 0 0 1 
+
+State Machine - soc_inst|subsys_sgmii_emac1|eth_tse_0|altera_eth_tse_inst|i_tse_pcs_0|altera_tse_top_1000_base_x_inst|U_SGMII|U_PCS|U_RX|U_SYNC|state
+Name state.STM_TYP_SYNC_ACQU_4A state.STM_TYP_SYNC_ACQU_3A state.STM_TYP_SYNC_ACQU_4 state.STM_TYP_SYNC_ACQU_2A state.STM_TYP_SYNC_ACQU_3 state.STM_TYP_SYNC_ACQU_2 state.STM_TYP_SYNC_ACQU_1 state.STM_TYP_COMMA_3 state.STM_TYP_ACQU_SYNC_2 state.STM_TYP_COMMA_2 state.STM_TYP_ACQU_SYNC_1 state.STM_TYP_COMMA_1 state.STM_TYP_LOSS_OF_SYNC 
+state.STM_TYP_LOSS_OF_SYNC 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.STM_TYP_COMMA_1 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.STM_TYP_ACQU_SYNC_1 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.STM_TYP_COMMA_2 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.STM_TYP_ACQU_SYNC_2 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.STM_TYP_COMMA_3 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.STM_TYP_SYNC_ACQU_1 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.STM_TYP_SYNC_ACQU_2 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.STM_TYP_SYNC_ACQU_3 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.STM_TYP_SYNC_ACQU_2A 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_SYNC_ACQU_4 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_SYNC_ACQU_3A 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.STM_TYP_SYNC_ACQU_4A 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - soc_inst|jtg_mst|fpga_m|altera_jtag_avalon_master_inst|transacto|p2m|state
+Name state.READ_SEND_WAIT state.READ_DATA_WAIT state.READ_SEND_ISSUE state.READ_CMD_WAIT state.WRITE_WAIT state.RETURN_PACKET state.READ_ASSERT state.GET_WRITE_DATA state.GET_ADDR4 state.GET_ADDR3 state.GET_ADDR2 state.GET_ADDR1 state.GET_SIZE2 state.GET_SIZE1 state.GET_EXTRA state.READY 
+state.READY 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.GET_EXTRA 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.GET_SIZE1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.GET_SIZE2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.GET_ADDR1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.GET_ADDR2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.GET_ADDR3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.GET_ADDR4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.GET_WRITE_DATA 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.READ_ASSERT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.RETURN_PACKET 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.WRITE_WAIT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_CMD_WAIT 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_ISSUE 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_DATA_WAIT 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_WAIT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - soc_inst|mm_interconnect_1|ocm_s1_burst_adapter|altera_merlin_burst_adapter_new.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 
+state.ST_COMP_TRANS 1 0 1 
+state.ST_UNCOMP_TRANS 1 1 0 
+
+State Machine - soc_inst|jtg_mst|hps_m|altera_jtag_avalon_master_inst|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|write_state
+Name write_state.ST_WRITE_DATA write_state.ST_HEADER_2 write_state.ST_HEADER_1 write_state.ST_BYPASS 
+write_state.ST_BYPASS 0 0 0 0 
+write_state.ST_HEADER_1 0 0 1 1 
+write_state.ST_HEADER_2 0 1 0 1 
+write_state.ST_WRITE_DATA 1 0 0 1 
+
+State Machine - soc_inst|jtg_mst|hps_m|altera_jtag_avalon_master_inst|jtag_phy_embedded_in_jtag_master|normal.jtag_dc_streaming|jtag_streaming|read_state
+Name read_state.ST_HEADER read_state.ST_READ_DATA read_state.ST_PADDED 
+read_state.ST_HEADER 0 0 0 
+read_state.ST_READ_DATA 1 1 0 
+read_state.ST_PADDED 1 0 1 
+
+State Machine - soc_inst|subsys_sgmii_emac1|eth_tse_0|altera_eth_tse_inst|i_tse_pcs_0|altera_tse_top_1000_base_x_inst|U_SGMII|U_TXCV|U_TXCV|state
+Name state.STM_TYP_WAIT_RD state.STM_TYP_FF_READ state.STM_TYP_GIGA_MODE state.STM_TYP_IDLE 
+state.STM_TYP_IDLE 0 0 0 0 
+state.STM_TYP_GIGA_MODE 0 0 1 1 
+state.STM_TYP_FF_READ 0 1 0 1 
+state.STM_TYP_WAIT_RD 1 0 0 1 
+
+State Machine - soc_inst|jtg_mst|hps_m|altera_jtag_avalon_master_inst|transacto|p2m|state
+Name state.READ_SEND_WAIT state.READ_DATA_WAIT state.READ_SEND_ISSUE state.READ_CMD_WAIT state.WRITE_WAIT state.RETURN_PACKET state.READ_ASSERT state.GET_WRITE_DATA state.GET_ADDR4 state.GET_ADDR3 state.GET_ADDR2 state.GET_ADDR1 state.GET_SIZE2 state.GET_SIZE1 state.GET_EXTRA state.READY 
+state.READY 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.GET_EXTRA 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.GET_SIZE1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.GET_SIZE2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.GET_ADDR1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.GET_ADDR2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.GET_ADDR3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.GET_ADDR4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.GET_WRITE_DATA 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.READ_ASSERT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.RETURN_PACKET 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.WRITE_WAIT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_CMD_WAIT 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_ISSUE 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_DATA_WAIT 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_WAIT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

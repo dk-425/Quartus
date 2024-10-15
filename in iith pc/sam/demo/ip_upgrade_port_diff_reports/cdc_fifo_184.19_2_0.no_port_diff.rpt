@@ -1,0 +1,23 @@
+IP Ports Diff Report for cdc_fifo_184
+Mon Oct 30 12:52:45 2023
+Quartus Prime Version 22.4.0 Build 94 12/07/2022 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. IP Information
+
+
+
++---------------------------------------------------------------------------------------------------------+
+; IP Information                                                                                          ;
++----------------------+----------------------------------------------------------------------------------+
+; IP Variation Name    ; cdc_fifo_184                                                                     ;
+; Prior Version        ; 19.1.0                                                                           ;
+; New Version          ; 19.2.0                                                                           ;
+; New File             ; /home/wisig/Desktop/wnKyocera/common/intel_ips/cdc_fifo_184/synth/cdc_fifo_184.v ;
+; Has Port Differences ; No                                                                               ;
++----------------------+----------------------------------------------------------------------------------+
+
+

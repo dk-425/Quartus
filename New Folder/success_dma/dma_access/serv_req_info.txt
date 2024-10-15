@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<internal_error>
+	<sub_system>ERR</sub_system>
+	<callstack>	0x7fc392ea9cf0: db_u2b2_core + 0x202cf0 (_ZN17U2B2_ND_HSSI_ATTR35U2B2_ND_HSSI_ATTR_TRANSLATOR_MODULE9translateEP11U2B2_CONFIGP9DBCM_CHIP + 0x22ce)
+	0x7fc392d9fd83: db_u2b2_core + 0xf8d83 (_ZN11U2B2_MODULE9translateEP11U2B2_CONFIGP9DBCM_CHIP + 0x51)
+	0x7fc392d6de9f: db_u2b2_core + 0xc6e9f (_ZNK13U2B2_DIRECTOR12translate_fnEP11U2B2_MODULERK12U2B2_CONTEXTP11U2B2_CONFIG + 0x69)
+	0x7fc392d6ebc6: db_u2b2_core + 0xc7bc6 (_ZN3tbb6detail2d223for_each_iteration_taskINS1_17hash_map_iteratorINS1_19concurrent_hash_mapI4QSYMP11U2B2_CONFIG7QTL_OPSIS5_vENS0_2d113tbb_allocatorISt4pairIKS5_S7_EEEEEKSE_EEZNK13U2B2_DIRECTOR9translateERK12U2B2_CONTEXTEUlSE_E_SH_E7executeERNSA_14execution_dataE + 0x7a)
+	0x7fc3776851d3: tbb + 0x161d3 (_ZN3tbb6detail2r115task_dispatcher16execute_and_waitEPNS0_2d14taskERNS3_12wait_contextERNS3_18task_group_contextE + 0x763)
+	0x7fc392d6c8fc: db_u2b2_core + 0xc58fc (_ZN3tbb6detail2d227forward_block_handling_taskINS1_17hash_map_iteratorINS1_19concurrent_hash_mapI4QSYMP11U2B2_CONFIG7QTL_OPSIS5_vENS0_2d113tbb_allocatorISt4pairIKS5_S7_EEEEEKSE_EEZNK13U2B2_DIRECTOR9translateERK12U2B2_CONTEXTEUlSE_E_SH_E7executeERNSA_14execution_dataE + 0x9c)
+	0x7fc377693203: tbb + 0x24203 (_ZN3tbb6detail2r16market7processERN3rml3jobE + 0xad3)
+	0x7fc37768e562: tbb + 0x1f562 (_ZN3tbb6detail2r13rml14private_worker14thread_routineEPv + 0x52)
+	0x7fc373438609: pthread + 0x8609 (start_thread + 0xd9)
+	0x7fc372dbc353: c + 0x11f353 (clone + 0x43)
+</callstack>
+	<error>*** Fatal Error: ====Conflict Description 1====
+
+Rule: z1545a::set_user_refclk_to_bti_channel_refclk_ch15_rule @ hssi_0_1__z1545a located in file p4/devices/icd_data/nadder/cr3v0/z1545a/bcmrbc/z1545a.advanced.rbc.sv
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_1.bti_protected == TRUE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_0.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_1.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_2.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_3.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_4.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_5.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_6.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_7.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_8.use_as_bti_clock == FALSE
+Rule: cr3v0_c3xcvr::set_refclk_sel_rule @ hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_1 located in file p4/devices/icd_data/nadder/cr3v0/c3xcvr/bcmrbc/c3xcvr.rbc.sv
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_1.bti_protected == TRUE
+
+The original conflicting clauses are: 
+hssi_0_1__z1545a - z1545a::set_user_refclk_to_bti_channel_refclk_ch15_rule
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_1.bti_protected == FALSE || hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_1.set_refclk_sel == 9 || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_0.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_1.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_2.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_3.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_4.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_5.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_6.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_7.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_8.use_as_bti_clock == TRUE
+hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_1 - cr3v0_c3xcvr::set_refclk_sel_rule
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_1.bti_protected == FALSE || hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_1.set_refclk_sel &lt; 9
+
+====Conflict Description 2====
+
+Rule: z1545a::set_user_refclk_to_bti_channel_refclk_ch14_rule @ hssi_0_1__z1545a located in file p4/devices/icd_data/nadder/cr3v0/z1545a/bcmrbc/z1545a.advanced.rbc.sv
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_0.bti_protected == TRUE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_0.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_1.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_2.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_3.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_4.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_5.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_6.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_7.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_8.use_as_bti_clock == FALSE
+Rule: cr3v0_c3xcvr::set_refclk_sel_rule @ hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_0 located in file p4/devices/icd_data/nadder/cr3v0/c3xcvr/bcmrbc/c3xcvr.rbc.sv
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_0.bti_protected == TRUE
+
+The original conflicting clauses are: 
+hssi_0_1__z1545a - z1545a::set_user_refclk_to_bti_channel_refclk_ch14_rule
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_0.bti_protected == FALSE || hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_0.set_refclk_sel == 9 || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_0.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_1.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_2.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_3.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_4.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_5.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_6.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_7.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_8.use_as_bti_clock == TRUE
+hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_0 - cr3v0_c3xcvr::set_refclk_sel_rule
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_0.bti_protected == FALSE || hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_7.u_c3xcvr_0.set_refclk_sel &lt; 9
+
+====Conflict Description 3====
+
+Rule: z1545a::set_user_refclk_to_bti_channel_refclk_ch13_rule @ hssi_0_1__z1545a located in file p4/devices/icd_data/nadder/cr3v0/z1545a/bcmrbc/z1545a.advanced.rbc.sv
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_6.u_c3xcvr_1.bti_protected == TRUE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_0.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_1.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_2.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_3.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_4.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_5.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_6.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_7.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_8.use_as_bti_clock == FALSE
+Rule: cr3v0_c3xcvr::set_refclk_sel_rule @ hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_6.u_c3xcvr_1 located in file p4/devices/icd_data/nadder/cr3v0/c3xcvr/bcmrbc/c3xcvr.rbc.sv
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_6.u_c3xcvr_1.bti_protected == TRUE
+
+The original conflicting clauses are: 
+hssi_0_1__z1545a - z1545a::set_user_refclk_to_bti_channel_refclk_ch13_rule
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_6.u_c3xcvr_1.bti_protected == FALSE || hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_6.u_c3xcvr_1.set_refclk_sel == 9 || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_0.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_1.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_2.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_3.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_4.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_5.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_6.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_7.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_8.use_as_bti_clock == TRUE
+hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_6.u_c3xcvr_1 - cr3v0_c3xcvr::set_refclk_sel_rule
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_6.u_c3xcvr_1.bti_protected == FALSE || hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_6.u_c3xcvr_1.set_refclk_sel &lt; 9
+
+====Conflict Description 4====
+
+Rule: z1545a::set_user_refclk_to_bti_channel_refclk_ch11_rule @ hssi_0_1__z1545a located in file p4/devices/icd_data/nadder/cr3v0/z1545a/bcmrbc/z1545a.advanced.rbc.sv
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_5.u_c3xcvr_1.bti_protected == TRUE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_0.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_1.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_2.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_3.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_4.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_5.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_6.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_7.use_as_bti_clock == FALSE
+    hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_8.use_as_bti_clock == FALSE
+Rule: cr3v0_c3xcvr::set_refclk_sel_rule @ hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_5.u_c3xcvr_1 located in file p4/devices/icd_data/nadder/cr3v0/c3xcvr/bcmrbc/c3xcvr.rbc.sv
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_5.u_c3xcvr_1.bti_protected == TRUE
+
+The original conflicting clauses are: 
+hssi_0_1__z1545a - z1545a::set_user_refclk_to_bti_channel_refclk_ch11_rule
+    hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_5.u_c3xcvr_1.bti_protected == FALSE || hssi_0_1__z1545a.u_c3xcvrtile.u_c3xcvr_top_5.u_c3xcvr_1.set_refclk_sel == 9 || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_0.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_1.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_2.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_3.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_4.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_5.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_6.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_7.use_as_bti_clock == TRUE || hssi_0_1__z1545a.u_cr3iopads.cr3iopads_pecl_wrapper_8.use_as_bti_clock == TRUE
+hs</error>
+	<date>Mon Jan  8 15:58:19 2024
+</date>
+	<version>Version 22.4.0 Build 94 12/07/2022 SC Pro Edition</version>
+</internal_error>

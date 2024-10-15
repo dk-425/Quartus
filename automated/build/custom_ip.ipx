@@ -1,0 +1,3 @@
+<library>
+  <path path="../common/pspl/script/**/*" />
+</library>

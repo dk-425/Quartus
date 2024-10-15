@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip name="intel_agilex_hps">
+ <timestamp>2024-01-11T12:42:43.665711087</timestamp>
+ <file>ip/qsys_top/agilex_hps.ip</file>
+ <old_version>23.0.0</old_version>
+ <new_version>24.0.0</new_version>
+</ip>
+
+<ip name="altera_emif_cal">
+ <timestamp>2024-01-11T12:42:47.202722948</timestamp>
+ <file>ip/qsys_top/emif_calbus_0.ip</file>
+ <old_version>2.6.2</old_version>
+ <new_version>2.7.3</new_version>
+</ip>
+
+<ip name="altera_emif_fm_hps">
+ <timestamp>2024-01-11T12:42:52.851911503</timestamp>
+ <file>ip/qsys_top/emif_hps.ip</file>
+ <old_version>2.6.2</old_version>
+ <new_version>2.7.3</new_version>
+ <changes>
+  <change>2.7.3</change>
+  <change>No parameter change</change>
+  <change>No port change</change>
+  <change>Suppress warning and adjust certain board preset configurations</change>
+ </changes>
+</ip>
+
+<ip name="altera_msgdma">
+ <timestamp>2024-01-11T12:42:53.517523470</timestamp>
+ <file>ip/qsys_top/qsys_top_msgdma_0.ip</file>
+ <old_version>19.2.2</old_version>
+ <new_version>19.2.4</new_version>
+</ip>
+
+<ip name="altera_avalon_onchip_memory2">
+ <timestamp>2024-01-11T12:42:53.830185307</timestamp>
+ <file>ip/qsys_top/qsys_top_onchip_memory2_0.ip</file>
+ <old_version>19.3.6</old_version>
+ <new_version>19.3.8</new_version>
+</ip>
+
+<ip name="altera_avalon_pio">
+ <timestamp>2024-01-11T12:42:54.165185913</timestamp>
+ <file>ip/qsys_top/qsys_top_pio_1.ip</file>
+ <old_version>19.2.0</old_version>
+ <new_version>19.2.3</new_version>
+</ip>
+
+<ip name="altera_s10_user_rst_clkgate">
+ <timestamp>2024-01-11T12:42:54.229387004</timestamp>
+ <file>ip/qsys_top/user_rst_clkgate_0.ip</file>
+ <old_version>19.4.1</old_version>
+ <new_version>19.4.7</new_version>
+</ip>

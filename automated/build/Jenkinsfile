@@ -1,0 +1,38 @@
+pipeline {
+    agent any
+    stages {
+        stage('Setup') {
+            steps {
+                sh 'echo setting up ...'
+            }
+        }        
+        stage('project') {
+            steps {
+                dir('build') {
+                    sh 'make project'
+                }
+            }
+        }
+        stage('build') {
+            steps {
+                dir('build') {
+                    sh 'make sof'
+                }
+            }
+        }
+        stage('sim') {
+            steps {
+                dir('build') {
+                    sh 'make sim'
+                }
+            }
+        }        
+        stage('Deploy') {
+            steps {
+                dir('build') {
+                    sh 'make deploy'
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_TOOL_VERSION "22.4"
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_TOP_LEVEL_COMPONENT_NAME "altera_hps_emac_interface_splitter"
+set_global_assignment -library "emac_splitter_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "emac_splitter_0.sopcinfo"]
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name SLD_INFO "QSYS_NAME emac_splitter_0 HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "emac_splitter_0" -name MISC_FILE [file join $::quartus(qip_path) "emac_splitter_0.cmp"]
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_TARGETED_DEVICE_FAMILY "Agilex"
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_GENERATED_DEVICE_FAMILY "Agilex"
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "emac_splitter_0" -name MISC_FILE [file join $::quartus(qip_path) "../emac_splitter_0.ip"]
+
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_COMPONENT_NAME "YWx0ZXJhX2hwc19lbWFjX2ludGVyZmFjZV9zcGxpdHRlcg=="
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_COMPONENT_DISPLAY_NAME "SFBTIEVtYWMgSW50ZXJmYWNlIFNwbGl0dGVyIEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_COMPONENT_VERSION "MTkuMi4x"
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_COMPONENT_DESCRIPTION "SW50ZWwgRlBHQSBIUFMgRW1hYyBJbnRlcmZhY2UgU3BsaXR0ZXIgY29yZQ=="
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_COMPONENT_GROUP "UHJvY2Vzc29ycyBhbmQgUGVyaXBoZXJhbHMvSGFyZCBQcm9jZXNzb3IgQ29tcG9uZW50cw=="
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvdWcvdWdfZW1iZWRkZWRfaXAucGRm"
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL3NmbzE0MDA3ODc5NTI5MzIvaWdhMTQzNDQ5OTI1NDU3OQ=="
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_COMPONENT_NAME "ZW1hY19zcGxpdHRlcl8w"
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "emac_splitter_0" -library "emac_splitter_0" -name IP_COMPONENT_VERSION "MS4w"
+
+
+set_global_assignment -library "altera_hps_emac_interface_splitter_1921" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_hps_emac_interface_splitter_1921/synth/altera_hps_emac_interface_splitter.v"]
+set_global_assignment -library "altera_hps_emac_interface_splitter_1921" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_hps_emac_interface_splitter_1921/synth/altera_hps_emac_interface_splitter_csr.v"]
+set_global_assignment -library "emac_splitter_0" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/emac_splitter_0.v"]
+
+
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_TOOL_NAME "altera_hps_emac_interface_splitter"
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_TOOL_VERSION "19.2.1"
+set_global_assignment -entity "altera_hps_emac_interface_splitter" -library "altera_hps_emac_interface_splitter_1921" -name IP_TOOL_ENV "QsysPrimePro"
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xs:noNamespaceSchemaLocation="CMSIS-SVD_Schema_1_0.xsd">
+<name>gmii_sgmii_adapter_0</name>
+<peripherals>
+<peripheral>
+      <baseAddress>0x00000000</baseAddress>
+      <name>gmii_sgmii_adapter_0_avalon_slave_altera_gmii_to_sgmii_adapter</name>
+      <description>altera_gmii_to_sgmii_adapter</description>
+      <registers>
+        <register>
+          <access>read-write</access>
+          <addressOffset>0</addressOffset>
+          <displayName>ctrl</displayName>
+          <name>control</name>
+          <resetMask>0xffffffff</resetMask>
+          <resetValue>0x00000000</resetValue>
+          <size>32</size>
+          <fields>
+            <field>
+              <access>read-write</access>
+              <bitRange>[0:0]</bitRange>
+              <description>Transmit data path disable bit. This feld disables the transmit data path of the adapter core. It acts as sofware reset to all transmit sequential logic in the adapter core.</description>
+              <modifiedWriteValues>modify</modifiedWriteValues>
+              <name>tx_disable</name>
+            </field>
+          </fields>
+        </register>
+      </registers>
+    </peripheral>
+  <peripheral>
+      <baseAddress>0x00000000</baseAddress>
+      <name>gmii_sgmii_adapter_0_altera_gmii_to_sgmii_adapter_inst_avalon_slave_altera_gmii_to_sgmii_adapter</name>
+      <description>altera_gmii_to_sgmii_adapter</description>
+      <registers>
+        <register>
+          <access>read-write</access>
+          <addressOffset>0</addressOffset>
+          <displayName>ctrl</displayName>
+          <name>control</name>
+          <resetMask>0xffffffff</resetMask>
+          <resetValue>0x00000000</resetValue>
+          <size>32</size>
+          <fields>
+            <field>
+              <access>read-write</access>
+              <bitRange>[0:0]</bitRange>
+              <description>Transmit data path disable bit. This feld disables the transmit data path of the adapter core. It acts as sofware reset to all transmit sequential logic in the adapter core.</description>
+              <modifiedWriteValues>modify</modifiedWriteValues>
+              <name>tx_disable</name>
+            </field>
+          </fields>
+        </register>
+      </registers>
+    </peripheral>
+  </peripherals>
+</device>

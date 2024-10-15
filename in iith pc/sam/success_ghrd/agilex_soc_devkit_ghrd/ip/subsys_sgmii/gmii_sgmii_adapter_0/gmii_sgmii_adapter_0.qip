@@ -1,0 +1,73 @@
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_TOOL_VERSION "22.4"
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_TOP_LEVEL_COMPONENT_NAME "altera_gmii_to_sgmii_adapter"
+set_global_assignment -library "gmii_sgmii_adapter_0" -name SOPCINFO_FILE [file join $::quartus(qip_path) "gmii_sgmii_adapter_0.sopcinfo"]
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name SLD_INFO "QSYS_NAME gmii_sgmii_adapter_0 HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "gmii_sgmii_adapter_0" -name MISC_FILE [file join $::quartus(qip_path) "gmii_sgmii_adapter_0.cmp"]
+set_global_assignment -library "gmii_sgmii_adapter_0" -name SLD_FILE [file join $::quartus(qip_path) "gmii_sgmii_adapter_0.regmap"]
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_TARGETED_DEVICE_FAMILY "Agilex"
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_GENERATED_DEVICE_FAMILY "Agilex"
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "gmii_sgmii_adapter_0" -name MISC_FILE [file join $::quartus(qip_path) "../gmii_sgmii_adapter_0.ip"]
+
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_COMPONENT_NAME "Z21paV9zZ21paV9hZGFwdGVyXzBfaW50ZWxjbGtjdHJsXzIwMF9rcG9ibmV5"
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_COMPONENT_DISPLAY_NAME "Q2xvY2sgQ29udHJvbCBJbnRlbCBGUEdBIElQ"
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_COMPONENT_VERSION "Mi4wLjA="
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_COMPONENT_DESCRIPTION "PGh0bWw+QWxsb3dzIHNpZ25hbHMgdG8gdXNlIHRoZSBjbG9jayBuZXR3b3JrIGluIHRoZSBkZXZpY2UuPC9odG1sPg=="
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0Nsb2NrczsgUExMcyBhbmQgUmVzZXRz"
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuYWx0ZXJhLmNvbS9kb2N1bWVudGF0aW9uL21jbjE0NDA1Njk2Njg2MzAuaHRtbA=="
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuYWx0ZXJhLmNvbS9kb2N1bWVudGF0aW9uL2RxeDE1MTcyOTkzNjgyMTAuaHRtbA=="
+set_global_assignment -entity "altclkctrl_inst" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_NAME "YWx0Y2xrY3RybF9pbnN0"
+set_global_assignment -entity "altclkctrl_inst" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_DISPLAY_NAME "YWx0Y2xrY3RybF9pbnN0"
+set_global_assignment -entity "altclkctrl_inst" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altclkctrl_inst" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altclkctrl_inst" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "altclkctrl_inst" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_VERSION "MTkuMi4y"
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_NAME "YWx0ZXJhX2dtaWlfdG9fc2dtaWlfYWRhcHRlcg=="
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_DISPLAY_NAME "SFBTIEdNSUkgdG8gVFNFIDEwMDBCQVNFLVgvU0dNSUkgUENTIEJyaWRnZSBJbnRlbCBGUEdBIElQ"
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_VERSION "MTkuMi4y"
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_DESCRIPTION "SFBTIEdNSUkgdG8gVFNFIDEwMDBCQVNFLVgvU0dNSUkgUENTIEJyaWRnZQ=="
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_GROUP "UHJvY2Vzc29ycyBhbmQgUGVyaXBoZXJhbHMvSGFyZCBQcm9jZXNzb3IgQ29tcG9uZW50cw=="
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvdWcvdWdfZW1iZWRkZWRfaXAucGRm"
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL3NmbzE0MDA3ODc5NTI5MzIvaWdhMTQzNDQ5OTI1NDU3OQ=="
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5ODAxMzQwOA=="
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_COMPONENT_NAME "Z21paV9zZ21paV9hZGFwdGVyXzA="
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "gmii_sgmii_adapter_0" -library "gmii_sgmii_adapter_0" -name IP_COMPONENT_VERSION "MS4w"
+
+
+set_global_assignment -library "intelclkctrl_200" -name VERILOG_FILE [file join $::quartus(qip_path) "intelclkctrl_200/synth/gmii_sgmii_adapter_0_intelclkctrl_200_kpobney.v"]
+set_global_assignment -library "altera_gmii_to_sgmii_adapter_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altclkctrl_inst.v"]
+set_global_assignment -library "altera_gmii_to_sgmii_adapter_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altera_gmii_to_sgmii_adapter.v"]
+set_global_assignment -library "altera_gmii_to_sgmii_adapter_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altera_gts_bin_gray.v"]
+set_global_assignment -library "altera_gmii_to_sgmii_adapter_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altera_gts_clock_gate.v"]
+set_global_assignment -library "altera_gmii_to_sgmii_adapter_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altera_gts_csr.v"]
+set_global_assignment -library "altera_gmii_to_sgmii_adapter_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altera_gts_fifomem.v"]
+set_global_assignment -library "altera_gmii_to_sgmii_adapter_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altera_gts_gray_bin.v"]
+set_global_assignment -library "altera_gmii_to_sgmii_adapter_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altera_gts_reset_blk.v"]
+set_global_assignment -library "altera_gmii_to_sgmii_adapter_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altera_gts_reset_synchronizer.v"]
+set_global_assignment -library "altera_gmii_to_sgmii_adapter_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altera_gts_synchronizer_bundle.v"]
+set_global_assignment -library "altera_gmii_to_sgmii_adapter_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altera_gts_txbuffer.v"]
+set_instance_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "altera_gmii_to_sgmii_adapter_1922/synth/altera_gmii_to_sgmii_adapter_agilex.sdc"] -no_sdc_promotion 
+set_global_assignment -library "gmii_sgmii_adapter_0" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/gmii_sgmii_adapter_0.v"]
+
+
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_TOOL_NAME "altera_gmii_to_sgmii_adapter"
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_TOOL_VERSION "19.2.2"
+set_global_assignment -entity "altera_gmii_to_sgmii_adapter" -library "altera_gmii_to_sgmii_adapter_1922" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_TOOL_NAME "intelclkctrl"
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_TOOL_VERSION "2.0.0"
+set_global_assignment -entity "gmii_sgmii_adapter_0_intelclkctrl_200_kpobney" -library "intelclkctrl_200" -name IP_TOOL_ENV "QsysPrimePro"
+

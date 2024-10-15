@@ -1,0 +1,165 @@
+events:
+  - name: l1c_param
+    description: is high everytime a payload from l1c to ps2pl is received
+  - name: tx_config_rcvd
+    description: is high everytime a payload to tx top ctrl is received
+  - name: rx_config_rcvd
+    description: is high everytime a payload to rx top ctrl is received
+  - name: slot_tick_event
+    description: is directly connected to the slot tick going to PS
+  - name: pl2ps_indication
+    description: is directly connected to the indication interrupt going from pl to ps
+  - name: pss_peak
+    description: is high everytime a new peak is detected
+  - name: pbch_crc
+    description: is high everytime pbch crc is valid - all the crc events are high even when crc fails
+  - name: pdcch_crc
+    description: is high everytime pdcch crc is valid - all the crc events are high even when crc fails
+  - name: pdsch_crc
+    description: is high everytime pdsch crc is valid - all the crc events are high even when crc fails
+  - name: pusch_config_rcvd
+    description: is high when a new config is read by the pusch top controller
+  - name: prach_config_rcvd
+    description: is high when a new config is read by the prach top controller
+  - name: pdcch_config_rcvd
+    description: is high when a new config is read by the pdcch top controller
+  - name: pdcch_data_start
+    description: is high at the start of the data from rb demapper to pdcch chain
+  - name: pdcch_data_end
+    description: is high at the end of the data from rb demapper to pdcch chain
+  - name: pdcch_dmrs_start
+    description: is high at the start of the dmrs from rb demapper to pdcch chain
+  - name: pdcch_dmrs_end
+    description: is high at the end of the dmrs from rb demapper to pdcch chain    
+  - name: pdsch_config_rcvd
+    description: is high when a new config is read by the pdsch top controller
+  - name: pdsch_data_start
+    description: is high at the start of the data from rb demapper to pdsch chain
+  - name: pdsch_data_end
+    description: is high at the end of the data from rb demapper to pdsch chain
+  - name: pdsch_dmrs_start
+    description: is high at the start of the dmrs from rb demapper to pdsch chain
+  - name: pdsch_dmrs_end
+    description: is high at the end of the dmrs from rb demapper to pdsch chain
+  - name: pdsch_dma_start
+    description: is high at the start of the dma data from pdsch chain to s2mm dma
+  - name: pdsch_dma_end
+    description: is high at the end of the dma data from pdsch chain to s2mm dma
+  - name: pss_config_rcvd
+    description: is high when a new config is received at the pss controller
+  - name: pss_start
+    description: indicates the start of the pss processing
+  - name: pss_end
+    description: indicates the end of the pss processing. This includes the 20ms search duration after the pss is detected
+  - name: ssb_config_rcvd
+    description: is high when a new config is received by the ssb controller
+  - name: ssb_start
+    description: indicates the start of the ssb processing
+  - name: ssb_end
+    description: indicates the end of the ssb processing
+  - name: l1_config_discarded
+    description: is high when a config is discarded at l1 top controller for whatever reason
+  - name: pusch_config_discarded
+    description: is high when a config is discarded at pusch top controller for whatever reason
+  - name: pucchf2_indata_start
+    description: is high at the end of the data from HPS to pucch f2 chain
+  - name: pucchf2_indata_end
+    description: is high at the start of the data from HPS to pucch f2 chain
+  - name: pucchf2_outdata_start
+    description: is high at the end of the data from pucch f2 to rb mapper chain
+  - name: pucchf2_outdata_end 
+    description: is high at the start of the data from pucch f2 to rb mapper chain
+  - name: pucchf2_dmrs_start
+    description: is high at the end of the dmrs from pucch f2 to rb mapper chain
+  - name: pucchf2_dmrs_end
+    description: is high at the start of the dmrs from pucch f2 to rb mapper chain
+  - name: pusch_dmrs_start
+    description: is high at the end of the dmrs from pusch to rb mapper chain
+  - name: pusch_dmrs_end
+    description: is high at the start of the dmrs from pusch to rb mapper chain
+  - name: pusch_outdata_start
+    description: is high at the end of the data from pusch to rb mapper chain
+  - name: pusch_outdata_end
+    description: is high at the start of the data from pusch to rb mapper chain
+  - name: pusch_dma_start
+    description: is high at the end of the data from DMA to pusch chain
+  - name: pusch_dma_end
+    description: is high at the start of the data from DMA to pusch chain
+  - name: pusch_ptrs_start
+    description: is high at the end of the data from pusch to rb mapper chain
+  - name: pusch_ptrs_end
+    description: is high at the start of the data from pusch to rb mapper chain
+  - name: prach_start
+    description: is high at the end of the data from prach to mux for selecting PRACH or Shared channel data
+  - name: prach_end
+    description: is high at the start of the data from prach to mux for selecting PRACH or Shared channel data
+  - name: rb_mapperout_start
+    description: is high at the end of the data from rb mapper to phase compensation chain
+  - name: rb_mapperout_end
+    description: is high at the start of the data from rb mapper to phase compensation chain
+  - name: fftshift_start
+    description: is high at the end of the data from txfftshift chain to inv txfftshift chain
+  - name: fftshift_end
+    description: is high at the start of the data from txfftshift chain to inv txfftshift chain
+  - name: tx_outdata_start
+    description: is high at the end of the data from tx chain to inv TDD_controller chain
+  - name: tx_outdata_end
+    description: is high at the start of the data from tx chain to inv TDD_controller chain
+  - name: tddc_ul_start
+    description: is high at the end of the data from TDD_controller to  tx chain chain
+  - name: tddc_ul_end
+    description: is high at the start of the data from TDD_controller to  tx chain chain
+  - name: tddc_dl_start
+    description: is high at the end of the data from rx chain to inv TDD_controller chain
+  - name: tddc_dl_end
+    description: is high at the start of the data from rx chain to inv TDD_controller chain
+states:
+  - name: state_l1top_ctrl
+    width: 4
+    description:
+  - name: state_txtop
+    width: 8
+    description:
+  - name: state_rxtop
+    width: 8
+    description:
+  - name: state_pusch
+    width: 8
+    description:
+  - name: state_f0
+    width: 8
+    description:
+  - name: state_f1
+    width: 8
+    description:
+  - name: state_f2
+    width: 8
+    description:
+  - name: state_prach
+    width: 8
+    description:
+  - name: state_pdsch
+    width: 8
+    description:
+  - name: state_pdcch
+    width: 8
+    description:
+  - name: state_ssb
+    width: 8
+    description:
+messages:
+  - name: agc_scaling
+    width: 5
+    description: agc scaling used by pss agc
+  - name: dci_payload
+    width: 8
+    description:
+  - name: tddc_config_msg
+    width: 22
+    description: config from l1 top ctrl to tddc
+  - name: pss_payload
+    width: 11
+    description: the output of pss processing generated once afc is done
+  - name: pdsch_crc_status
+    width: 1
+    description: pdsch crc status. 1 - pass, 0 - fail

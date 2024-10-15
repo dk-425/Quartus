@@ -1,0 +1,11 @@
+version: '2'
+services:
+  buildcont:
+    image: dk425/anybuild:v2.0
+    environment:
+      - LM_LICENSE_FILE="28500@192.168.130.25"
+      - QUARTUS_INSTALL_DIR="/tools/intelFPGA_pro/22.4" 
+    volumes:
+      - /home/wisig/intelFPGA_pro:/tools/intelFPGA_pro
+      - /home/wisig/sam/latest-stable/wnKyocera-dev:/home/wnKyocera
+    command: tail -f /dev/null

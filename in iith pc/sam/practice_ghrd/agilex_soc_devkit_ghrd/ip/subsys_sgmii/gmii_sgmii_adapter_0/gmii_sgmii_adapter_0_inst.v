@@ -1,0 +1,44 @@
+	gmii_sgmii_adapter_0 u0 (
+		.clk             (_connected_to_clk_),             //   input,   width = 1,         peri_clock.clk
+		.rst_n           (_connected_to_rst_n_),           //   input,   width = 1,         peri_reset.reset_n
+		.addr            (_connected_to_addr_),            //   input,   width = 1,       avalon_slave.address
+		.read            (_connected_to_read_),            //   input,   width = 1,                   .read
+		.write           (_connected_to_write_),           //   input,   width = 1,                   .write
+		.writedata       (_connected_to_writedata_),       //   input,  width = 32,                   .writedata
+		.readdata        (_connected_to_readdata_),        //  output,  width = 32,                   .readdata
+		.mac_tx_clk_o    (_connected_to_mac_tx_clk_o_),    //   input,   width = 1,           hps_gmii.phy_tx_clk_o
+		.mac_rst_tx_n    (_connected_to_mac_rst_tx_n_),    //   input,   width = 1,                   .rst_tx_n
+		.mac_rst_rx_n    (_connected_to_mac_rst_rx_n_),    //   input,   width = 1,                   .rst_rx_n
+		.mac_txd         (_connected_to_mac_txd_),         //   input,   width = 8,                   .phy_txd_o
+		.mac_txen        (_connected_to_mac_txen_),        //   input,   width = 1,                   .phy_txen_o
+		.mac_txer        (_connected_to_mac_txer_),        //   input,   width = 1,                   .phy_txer_o
+		.mac_speed       (_connected_to_mac_speed_),       //   input,   width = 2,                   .phy_mac_speed_o
+		.mac_tx_clk_i    (_connected_to_mac_tx_clk_i_),    //  output,   width = 1,                   .phy_tx_clk_i
+		.mac_rx_clk      (_connected_to_mac_rx_clk_),      //  output,   width = 1,                   .phy_rx_clk_i
+		.mac_rxdv        (_connected_to_mac_rxdv_),        //  output,   width = 1,                   .phy_rxdv_i
+		.mac_rxer        (_connected_to_mac_rxer_),        //  output,   width = 1,                   .phy_rxer_i
+		.mac_rxd         (_connected_to_mac_rxd_),         //  output,   width = 8,                   .phy_rxd_i
+		.mac_col         (_connected_to_mac_col_),         //  output,   width = 1,                   .phy_col_i
+		.mac_crs         (_connected_to_mac_crs_),         //  output,   width = 1,                   .phy_crs_i
+		.pcs_rst_tx      (_connected_to_pcs_rst_tx_),      //  output,   width = 1, pcs_transmit_reset.reset
+		.pcs_rst_rx      (_connected_to_pcs_rst_rx_),      //  output,   width = 1,  pcs_receive_reset.reset
+		.pcs_tx_clk      (_connected_to_pcs_tx_clk_),      //   input,   width = 1, pcs_transmit_clock.clk
+		.pcs_rx_clk      (_connected_to_pcs_rx_clk_),      //   input,   width = 1,  pcs_receive_clock.clk
+		.pcs_txclk_ena   (_connected_to_pcs_txclk_ena_),   //   input,   width = 1,   pcs_clock_enable.tx_clkena
+		.pcs_rxclk_ena   (_connected_to_pcs_rxclk_ena_),   //   input,   width = 1,                   .rx_clkena
+		.pcs_gmii_rx_dv  (_connected_to_pcs_gmii_rx_dv_),  //   input,   width = 1,           pcs_gmii.gmii_rx_dv
+		.pcs_gmii_rx_d   (_connected_to_pcs_gmii_rx_d_),   //   input,   width = 8,                   .gmii_rx_d
+		.pcs_gmii_rx_err (_connected_to_pcs_gmii_rx_err_), //   input,   width = 1,                   .gmii_rx_err
+		.pcs_gmii_tx_en  (_connected_to_pcs_gmii_tx_en_),  //  output,   width = 1,                   .gmii_tx_en
+		.pcs_gmii_tx_d   (_connected_to_pcs_gmii_tx_d_),   //  output,   width = 8,                   .gmii_tx_d
+		.pcs_gmii_tx_err (_connected_to_pcs_gmii_tx_err_), //  output,   width = 1,                   .gmii_tx_err
+		.pcs_mii_rx_dv   (_connected_to_pcs_mii_rx_dv_),   //   input,   width = 1,            pcs_mii.mii_rx_dv
+		.pcs_mii_rx_d    (_connected_to_pcs_mii_rx_d_),    //   input,   width = 4,                   .mii_rx_d
+		.pcs_mii_rx_err  (_connected_to_pcs_mii_rx_err_),  //   input,   width = 1,                   .mii_rx_err
+		.pcs_mii_col     (_connected_to_pcs_mii_col_),     //   input,   width = 1,                   .mii_col
+		.pcs_mii_crs     (_connected_to_pcs_mii_crs_),     //   input,   width = 1,                   .mii_crs
+		.pcs_mii_tx_en   (_connected_to_pcs_mii_tx_en_),   //  output,   width = 1,                   .mii_tx_en
+		.pcs_mii_tx_d    (_connected_to_pcs_mii_tx_d_),    //  output,   width = 4,                   .mii_tx_d
+		.pcs_mii_tx_err  (_connected_to_pcs_mii_tx_err_)   //  output,   width = 1,                   .mii_tx_err
+	);
+
